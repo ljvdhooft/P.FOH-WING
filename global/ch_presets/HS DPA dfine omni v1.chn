@@ -1,0 +1,337 @@
+{
+    "type": "preset_ch.6",
+    "creator_fw": "1.12.8-0-g33589c9e:release",
+    "creator_sn": "S220800180BV2",
+    "creator_model": "ngc-full",
+    "creator_name": "PAROUSIA-FOH",
+    "index": 17,
+    "scopes": "001001111111111100",
+    "ch_data": {
+        "in": {
+            "set": {
+                "srcauto": true,
+                "altsrc": false,
+                "inv": false,
+                "trim": 0,
+                "bal": 0,
+                "dlymode": "M",
+                "dly": 0,
+                "dlyon": false
+            },
+            "conn": {
+                "grp": "A",
+                "in": 28,
+                "altgrp": "USB",
+                "altin": 23
+            }
+        },
+        "flt": {
+            "lc": true,
+            "lcf": 148.9035,
+            "hc": true,
+            "hcf": 8367.685,
+            "tf": false,
+            "mdl": "TILT",
+            "tilt": 0
+        },
+        "clink": false,
+        "col": 6,
+        "name": "HS-1",
+        "icon": 0,
+        "led": true,
+        "mute": false,
+        "fdr": -144,
+        "pan": 0,
+        "wid": 100,
+        "solosafe": false,
+        "mon": "A",
+        "proc": "GEDI",
+        "ptap": "4",
+        "peq": {
+            "on": false,
+            "1g": 0,
+            "1f": 99.68543,
+            "1q": 1.995882,
+            "2g": 0,
+            "2f": 999.2505,
+            "2q": 1.995882,
+            "3g": 0,
+            "3f": 10016.53,
+            "3q": 1.995882
+        },
+        "gate": {
+            "on": false,
+            "mdl": "GATE",
+            "thr": -40,
+            "range": 40,
+            "att": 10,
+            "hld": 10,
+            "rel": 199.4043,
+            "acc": 0,
+            "ratio": "1:3"
+        },
+        "gatesc": {
+            "type": "OFF",
+            "f": 1002.374,
+            "q": 1.995882,
+            "src": "SELF",
+            "tap": "IN"
+        },
+        "eq": {
+            "on": true,
+            "mdl": "STD",
+            "mix": 100,
+            "lg": -7.1,
+            "lf": 175.7033,
+            "lq": 1.565953,
+            "leq": "PEQ",
+            "1g": -9.7,
+            "1f": 390.5305,
+            "1q": 1.649511,
+            "2g": -7,
+            "2f": 694.4725,
+            "2q": 1.995882,
+            "3g": -6.4,
+            "3f": 1317.589,
+            "3q": 1.995882,
+            "4g": -4.9,
+            "4f": 5476.84,
+            "4q": 2.066264,
+            "hg": 0,
+            "hf": 11994.42,
+            "hq": 1.995882,
+            "heq": "SHV"
+        },
+        "dyn": {
+            "on": true,
+            "mdl": "COMP",
+            "mix": 100,
+            "gain": 3,
+            "thr": -33.5,
+            "ratio": 3,
+            "knee": 3,
+            "det": "RMS",
+            "att": 50,
+            "hld": 20,
+            "rel": 152.5652,
+            "env": "LOG",
+            "auto": true
+        },
+        "dynxo": {
+            "depth": 6,
+            "type": "OFF",
+            "f": 1002.374
+        },
+        "dynsc": {
+            "type": "OFF",
+            "f": 1002.374,
+            "q": 1.995882,
+            "src": "SELF",
+            "tap": "IN"
+        },
+        "preins": {
+            "on": false,
+            "ins": "NONE"
+        },
+        "main": {
+            "1": {
+                "on": true,
+                "lvl": 0
+            },
+            "2": {
+                "on": false,
+                "lvl": 0
+            },
+            "3": {
+                "on": false,
+                "lvl": 0
+            },
+            "4": {
+                "on": true,
+                "lvl": 0
+            }
+        },
+        "send": {
+            "1": {
+                "on": true,
+                "lvl": -10,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "2": {
+                "on": true,
+                "lvl": -10,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "3": {
+                "on": true,
+                "lvl": -10,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "4": {
+                "on": true,
+                "lvl": -10,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "5": {
+                "on": true,
+                "lvl": -10,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "6": {
+                "on": true,
+                "lvl": -10,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "7": {
+                "on": true,
+                "lvl": -10,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "8": {
+                "on": true,
+                "lvl": -10,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "9": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "10": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "11": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "12": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "13": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "14": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "15": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            },
+            "16": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0,
+                "wid": 100
+            }
+        },
+        "postins": {
+            "on": true,
+            "mode": "AUTO_X",
+            "ins": "NONE",
+            "w": 0
+        },
+        "tags": ""
+    },
+    "is_fixed": false,
+    "hatype": 3,
+    "input_data": {
+        "mode": "M",
+        "g": 25,
+        "vph": false,
+        "mute": false,
+        "pol": false,
+        "col": 6,
+        "name": "HS 1",
+        "icon": 0,
+        "tags": ""
+    }
+}
