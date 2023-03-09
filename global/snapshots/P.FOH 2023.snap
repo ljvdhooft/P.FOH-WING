@@ -640,7 +640,7 @@
                     },
                     "11": {
                         "mode": "ST",
-                        "g": 0,
+                        "g": 15,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -651,7 +651,7 @@
                     },
                     "12": {
                         "mode": "ST",
-                        "g": 0,
+                        "g": 15,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -662,7 +662,7 @@
                     },
                     "13": {
                         "mode": "ST",
-                        "g": 0,
+                        "g": 12.5,
                         "vph": true,
                         "mute": false,
                         "pol": false,
@@ -673,7 +673,7 @@
                     },
                     "14": {
                         "mode": "ST",
-                        "g": 0,
+                        "g": 12.5,
                         "vph": true,
                         "mute": false,
                         "pol": false,
@@ -684,7 +684,7 @@
                     },
                     "15": {
                         "mode": "ST",
-                        "g": 0,
+                        "g": -2.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -695,7 +695,7 @@
                     },
                     "16": {
                         "mode": "ST",
-                        "g": 0,
+                        "g": -2.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -750,7 +750,7 @@
                     },
                     "21": {
                         "mode": "M",
-                        "g": 30,
+                        "g": 27.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -761,7 +761,7 @@
                     },
                     "22": {
                         "mode": "M",
-                        "g": 30,
+                        "g": 25,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -772,7 +772,7 @@
                     },
                     "23": {
                         "mode": "M",
-                        "g": 30,
+                        "g": 25,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -794,7 +794,7 @@
                     },
                     "25": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 42.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -805,7 +805,7 @@
                     },
                     "26": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 40,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -816,7 +816,7 @@
                     },
                     "27": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 45,
                         "vph": false,
                         "mute": false,
                         "pol": false,
