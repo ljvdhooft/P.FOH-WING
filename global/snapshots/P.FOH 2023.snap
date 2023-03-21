@@ -530,23 +530,12 @@
                 "A": {
                     "1": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 2.5,
                         "vph": true,
                         "mute": false,
                         "pol": false,
                         "col": 1,
                         "name": "Kick",
-                        "icon": 0,
-                        "tags": ""
-                    },
-                    "2": {
-                        "mode": "M",
-                        "g": 0,
-                        "vph": true,
-                        "mute": false,
-                        "pol": false,
-                        "col": 1,
-                        "name": "Snare",
                         "icon": 0,
                         "tags": ""
                     },
@@ -574,7 +563,7 @@
                     },
                     "5": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 2.5,
                         "vph": true,
                         "mute": false,
                         "pol": false,
@@ -585,7 +574,7 @@
                     },
                     "6": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 2.5,
                         "vph": true,
                         "mute": false,
                         "pol": false,
@@ -618,7 +607,7 @@
                     },
                     "9": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 15,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -662,7 +651,7 @@
                     },
                     "13": {
                         "mode": "ST",
-                        "g": 12.5,
+                        "g": 17.5,
                         "vph": true,
                         "mute": false,
                         "pol": false,
@@ -673,7 +662,7 @@
                     },
                     "14": {
                         "mode": "ST",
-                        "g": 12.5,
+                        "g": 17.5,
                         "vph": true,
                         "mute": false,
                         "pol": false,
@@ -684,7 +673,7 @@
                     },
                     "15": {
                         "mode": "ST",
-                        "g": -2.5,
+                        "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -695,7 +684,7 @@
                     },
                     "16": {
                         "mode": "ST",
-                        "g": -2.5,
+                        "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -706,7 +695,7 @@
                     },
                     "17": {
                         "mode": "ST",
-                        "g": 0,
+                        "g": 5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -717,7 +706,7 @@
                     },
                     "18": {
                         "mode": "ST",
-                        "g": 0,
+                        "g": 5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -750,7 +739,7 @@
                     },
                     "21": {
                         "mode": "M",
-                        "g": 27.5,
+                        "g": 30,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -761,7 +750,7 @@
                     },
                     "22": {
                         "mode": "M",
-                        "g": 25,
+                        "g": 30,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -772,7 +761,7 @@
                     },
                     "23": {
                         "mode": "M",
-                        "g": 25,
+                        "g": 30,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -794,7 +783,7 @@
                     },
                     "25": {
                         "mode": "M",
-                        "g": 42.5,
+                        "g": 35,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -805,7 +794,7 @@
                     },
                     "26": {
                         "mode": "M",
-                        "g": 40,
+                        "g": 35,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -816,7 +805,7 @@
                     },
                     "27": {
                         "mode": "M",
-                        "g": 45,
+                        "g": 35,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -827,7 +816,7 @@
                     },
                     "28": {
                         "mode": "M",
-                        "g": 25,
+                        "g": 30,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -838,7 +827,7 @@
                     },
                     "29": {
                         "mode": "M",
-                        "g": 25,
+                        "g": 30,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -849,7 +838,7 @@
                     },
                     "30": {
                         "mode": "M",
-                        "g": 25,
+                        "g": 30,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -860,7 +849,7 @@
                     },
                     "31": {
                         "mode": "M",
-                        "g": 30,
+                        "g": 35,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -5985,20 +5974,20 @@
                         "in": 1
                     },
                     "61": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "MTX",
+                        "in": 11
                     },
                     "62": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "MTX",
+                        "in": 12
                     },
                     "63": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "MTX",
+                        "in": 15
                     },
                     "64": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "MTX",
+                        "in": 16
                     }
                 },
                 "MOD": {
@@ -6749,7 +6738,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "DRUMS"
+                "tags": "#D1"
             },
             "2": {
                 "in": {
@@ -7101,7 +7090,7 @@
                 "led": true,
                 "mute": false,
                 "fdr": -144,
-                "pan": 0,
+                "pan": 16,
                 "wid": 100,
                 "solosafe": false,
                 "mon": "A",
@@ -7416,7 +7405,7 @@
                 "led": true,
                 "mute": false,
                 "fdr": -144,
-                "pan": 0,
+                "pan": 12,
                 "wid": 100,
                 "solosafe": false,
                 "mon": "A",
@@ -7731,7 +7720,7 @@
                 "led": true,
                 "mute": false,
                 "fdr": -144,
-                "pan": 0,
+                "pan": -12,
                 "wid": 100,
                 "solosafe": false,
                 "mon": "A",
@@ -8046,7 +8035,7 @@
                 "led": true,
                 "mute": false,
                 "fdr": -144,
-                "pan": 0,
+                "pan": -26,
                 "wid": 100,
                 "solosafe": false,
                 "mon": "A",
@@ -10547,7 +10536,7 @@
                         "grp": "A",
                         "in": 21,
                         "altgrp": "CRD",
-                        "altin": 19
+                        "altin": 21
                     }
                 },
                 "flt": {
@@ -10858,7 +10847,7 @@
                         "grp": "A",
                         "in": 22,
                         "altgrp": "CRD",
-                        "altin": 20
+                        "altin": 22
                     }
                 },
                 "flt": {
@@ -11096,7 +11085,7 @@
                     },
                     "12": {
                         "on": true,
-                        "lvl": -9.980568,
+                        "lvl": -9.98056,
                         "pon": false,
                         "ind": true,
                         "mode": "POST",
@@ -11169,7 +11158,7 @@
                         "grp": "A",
                         "in": 23,
                         "altgrp": "CRD",
-                        "altin": 21
+                        "altin": 23
                     }
                 },
                 "flt": {
@@ -11480,7 +11469,7 @@
                         "grp": "A",
                         "in": 24,
                         "altgrp": "CRD",
-                        "altin": 22
+                        "altin": 24
                     }
                 },
                 "flt": {
@@ -11791,14 +11780,14 @@
                         "grp": "A",
                         "in": 28,
                         "altgrp": "CRD",
-                        "altin": 23
+                        "altin": 28
                     }
                 },
                 "flt": {
                     "lc": true,
                     "lcf": 148.9035,
                     "hc": true,
-                    "hcf": 8367.685,
+                    "hcf": 10766.32,
                     "tf": false,
                     "mdl": "TILT",
                     "tilt": 0
@@ -11829,15 +11818,11 @@
                     "3q": 1.995882
                 },
                 "gate": {
-                    "on": false,
-                    "mdl": "GATE",
-                    "thr": -40,
-                    "range": 40,
-                    "att": 10,
-                    "hld": 10,
-                    "rel": 199.4043,
-                    "acc": 0,
-                    "ratio": "1:3"
+                    "on": true,
+                    "mdl": "DS902",
+                    "f": 4518.851,
+                    "range": 6,
+                    "mode": "FULL"
                 },
                 "gatesc": {
                     "type": "OFF",
@@ -11854,17 +11839,17 @@
                     "lf": 175.7033,
                     "lq": 1.565953,
                     "leq": "PEQ",
-                    "1g": -9.7,
-                    "1f": 390.5305,
+                    "1g": -9,
+                    "1f": 384.9506,
                     "1q": 1.649511,
-                    "2g": -7,
+                    "2g": -6.3,
                     "2f": 694.4725,
                     "2q": 1.995882,
-                    "3g": -6.4,
-                    "3f": 1317.589,
+                    "3g": -5.2,
+                    "3f": 1457.236,
                     "3q": 1.995882,
                     "4g": -4.9,
-                    "4f": 5476.84,
+                    "4f": 4288.248,
                     "4q": 2.066264,
                     "hg": 0,
                     "hf": 11994.42,
@@ -11878,11 +11863,11 @@
                     "gain": 3,
                     "thr": -33.5,
                     "ratio": 3,
-                    "knee": 3,
+                    "knee": 4,
                     "det": "RMS",
-                    "att": 50,
+                    "att": 31,
                     "hld": 20,
-                    "rel": 152.5652,
+                    "rel": 58.19032,
                     "env": "LOG",
                     "auto": true
                 },
@@ -11905,19 +11890,23 @@
                 "main": {
                     "1": {
                         "on": true,
-                        "lvl": 0
+                        "lvl": 0,
+                        "pre": false
                     },
                     "2": {
                         "on": false,
-                        "lvl": 0
+                        "lvl": 0,
+                        "pre": false
                     },
                     "3": {
                         "on": false,
-                        "lvl": 0
+                        "lvl": 0,
+                        "pre": false
                     },
                     "4": {
                         "on": true,
-                        "lvl": 0
+                        "lvl": 3,
+                        "pre": false
                     }
                 },
                 "send": {
@@ -12033,7 +12022,7 @@
                     },
                     "12": {
                         "on": true,
-                        "lvl": -9.951498,
+                        "lvl": -9.951481,
                         "pon": false,
                         "ind": true,
                         "mode": "POST",
@@ -12106,14 +12095,14 @@
                         "grp": "A",
                         "in": 29,
                         "altgrp": "CRD",
-                        "altin": 24
+                        "altin": 29
                     }
                 },
                 "flt": {
                     "lc": true,
                     "lcf": 148.9035,
                     "hc": true,
-                    "hcf": 8367.685,
+                    "hcf": 10766.32,
                     "tf": false,
                     "mdl": "TILT",
                     "tilt": 0
@@ -12144,15 +12133,11 @@
                     "3q": 1.995882
                 },
                 "gate": {
-                    "on": false,
-                    "mdl": "GATE",
-                    "thr": -40,
-                    "range": 40,
-                    "att": 10,
-                    "hld": 10,
-                    "rel": 199.4043,
-                    "acc": 0,
-                    "ratio": "1:3"
+                    "on": true,
+                    "mdl": "DS902",
+                    "f": 4518.851,
+                    "range": 6,
+                    "mode": "FULL"
                 },
                 "gatesc": {
                     "type": "OFF",
@@ -12169,17 +12154,17 @@
                     "lf": 175.7033,
                     "lq": 1.565953,
                     "leq": "PEQ",
-                    "1g": -9.7,
-                    "1f": 390.5305,
+                    "1g": -9,
+                    "1f": 384.9506,
                     "1q": 1.649511,
-                    "2g": -7,
+                    "2g": -6.3,
                     "2f": 694.4725,
                     "2q": 1.995882,
-                    "3g": -6.4,
-                    "3f": 1317.589,
+                    "3g": -5.2,
+                    "3f": 1457.236,
                     "3q": 1.995882,
                     "4g": -4.9,
-                    "4f": 5476.84,
+                    "4f": 4288.248,
                     "4q": 2.066264,
                     "hg": 0,
                     "hf": 11994.42,
@@ -12193,11 +12178,11 @@
                     "gain": 3,
                     "thr": -33.5,
                     "ratio": 3,
-                    "knee": 3,
+                    "knee": 4,
                     "det": "RMS",
-                    "att": 50,
+                    "att": 31,
                     "hld": 20,
-                    "rel": 152.5652,
+                    "rel": 58.19032,
                     "env": "LOG",
                     "auto": true
                 },
@@ -12421,14 +12406,14 @@
                         "grp": "A",
                         "in": 30,
                         "altgrp": "CRD",
-                        "altin": 25
+                        "altin": 30
                     }
                 },
                 "flt": {
                     "lc": true,
                     "lcf": 148.9035,
                     "hc": true,
-                    "hcf": 8367.685,
+                    "hcf": 10766.32,
                     "tf": false,
                     "mdl": "TILT",
                     "tilt": 0
@@ -12459,15 +12444,11 @@
                     "3q": 1.995882
                 },
                 "gate": {
-                    "on": false,
-                    "mdl": "GATE",
-                    "thr": -40,
-                    "range": 40,
-                    "att": 10,
-                    "hld": 10,
-                    "rel": 199.4043,
-                    "acc": 0,
-                    "ratio": "1:3"
+                    "on": true,
+                    "mdl": "DS902",
+                    "f": 4518.851,
+                    "range": 6,
+                    "mode": "FULL"
                 },
                 "gatesc": {
                     "type": "OFF",
@@ -12484,17 +12465,17 @@
                     "lf": 175.7033,
                     "lq": 1.565953,
                     "leq": "PEQ",
-                    "1g": -9.7,
-                    "1f": 390.5305,
+                    "1g": -9,
+                    "1f": 384.9506,
                     "1q": 1.649511,
-                    "2g": -7,
+                    "2g": -6.3,
                     "2f": 694.4725,
                     "2q": 1.995882,
-                    "3g": -6.4,
-                    "3f": 1317.589,
+                    "3g": -5.2,
+                    "3f": 1457.236,
                     "3q": 1.995882,
                     "4g": -4.9,
-                    "4f": 5476.84,
+                    "4f": 4288.248,
                     "4q": 2.066264,
                     "hg": 0,
                     "hf": 11994.42,
@@ -12508,11 +12489,11 @@
                     "gain": 3,
                     "thr": -33.5,
                     "ratio": 3,
-                    "knee": 3,
+                    "knee": 4,
                     "det": "RMS",
-                    "att": 50,
+                    "att": 31,
                     "hld": 20,
-                    "rel": 152.5652,
+                    "rel": 58.19032,
                     "env": "LOG",
                     "auto": true
                 },
@@ -12736,7 +12717,7 @@
                         "grp": "A",
                         "in": 31,
                         "altgrp": "CRD",
-                        "altin": 26
+                        "altin": 31
                     }
                 },
                 "flt": {
@@ -13051,7 +13032,7 @@
                         "grp": "A",
                         "in": 25,
                         "altgrp": "CRD",
-                        "altin": 27
+                        "altin": 25
                     }
                 },
                 "flt": {
@@ -13366,7 +13347,7 @@
                         "grp": "A",
                         "in": 26,
                         "altgrp": "CRD",
-                        "altin": 28
+                        "altin": 26
                     }
                 },
                 "flt": {
@@ -13681,7 +13662,7 @@
                         "grp": "A",
                         "in": 27,
                         "altgrp": "CRD",
-                        "altin": 29
+                        "altin": 27
                     }
                 },
                 "flt": {
@@ -13996,7 +13977,7 @@
                         "grp": "A",
                         "in": 19,
                         "altgrp": "CRD",
-                        "altin": 30
+                        "altin": 19
                     }
                 },
                 "flt": {
@@ -14311,7 +14292,7 @@
                         "grp": "A",
                         "in": 20,
                         "altgrp": "CRD",
-                        "altin": 31
+                        "altin": 20
                     }
                 },
                 "flt": {
@@ -14616,7 +14597,7 @@
                         "srcauto": true,
                         "altsrc": false,
                         "inv": false,
-                        "trim": 0,
+                        "trim": 10,
                         "bal": 0,
                         "dlymode": "M",
                         "dly": 0,
@@ -14931,7 +14912,7 @@
                         "srcauto": true,
                         "altsrc": false,
                         "inv": false,
-                        "trim": 0,
+                        "trim": 10,
                         "bal": 0,
                         "dlymode": "M",
                         "dly": 0,
@@ -17794,7 +17775,7 @@
                 "icon": 0,
                 "led": true,
                 "mute": false,
-                "fdr": -0.195313,
+                "fdr": -3.652344,
                 "pan": 0,
                 "wid": 100,
                 "solosafe": false,
@@ -17814,9 +17795,9 @@
                     "3q": 1.995882
                 },
                 "gate": {
-                    "on": true,
+                    "on": false,
                     "mdl": "DS902",
-                    "f": 7187.509,
+                    "f": 1604.78,
                     "range": 12,
                     "mode": "HF"
                 },
@@ -17853,12 +17834,12 @@
                     "heq": "SHV"
                 },
                 "dyn": {
-                    "on": false,
+                    "on": true,
                     "mdl": "COMP",
                     "mix": 100,
                     "gain": 0,
-                    "thr": -40,
-                    "ratio": 3,
+                    "thr": -39,
+                    "ratio": 2,
                     "knee": 3,
                     "det": "RMS",
                     "att": 50,
@@ -20504,15 +20485,15 @@
                         "bal": 0
                     },
                     "conn": {
-                        "grp": "OSC",
+                        "grp": "OFF",
                         "in": 1,
                         "altgrp": "OFF",
                         "altin": 1
                     }
                 },
-                "clink": false,
+                "clink": true,
                 "col": 1,
-                "name": "PINK",
+                "name": "",
                 "icon": 0,
                 "led": false,
                 "mute": false,
@@ -20591,7 +20572,7 @@
                     },
                     "2": {
                         "on": false,
-                        "lvl": -83.43108,
+                        "lvl": -144,
                         "pon": false,
                         "ind": false,
                         "mode": "PRE",
@@ -24016,7 +23997,7 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": 0.820313,
+                "fdr": 0,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -24149,7 +24130,7 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": 1.083984,
+                "fdr": 0,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -24404,41 +24385,25 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": 0.012985,
+                "fdr": -0.351563,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
                 "eq": {
                     "on": false,
-                    "mdl": "STD",
+                    "mdl": "PIA",
                     "mix": 100,
-                    "lg": 0,
-                    "lf": 60.13884,
-                    "lq": 1.995882,
-                    "leq": "SHV",
-                    "1g": 0,
-                    "1f": 129.8763,
-                    "1q": 1.995882,
-                    "2g": 0,
-                    "2f": 299.2472,
-                    "2q": 1.995882,
-                    "3g": 0,
-                    "3f": 699.4875,
-                    "3q": 1.995882,
-                    "4g": 0,
-                    "4f": 1499.788,
-                    "4q": 1.995882,
-                    "5g": 0,
-                    "5f": 2992.471,
-                    "5q": 1.995882,
-                    "6g": 0,
-                    "6f": 6013.884,
-                    "6q": 1.995882,
-                    "hg": 0,
-                    "hf": 11994.42,
-                    "hq": 0.99797,
-                    "heq": "SHV",
-                    "tilt": 0
+                    "g": 0,
+                    "31": 0,
+                    "63": 0,
+                    "125": 0,
+                    "250": 0,
+                    "500": 0,
+                    "1k": 0,
+                    "2k": 0,
+                    "4k": 0,
+                    "8k": 0,
+                    "16k": 0
                 },
                 "dyn": {
                     "on": true,
@@ -24446,11 +24411,11 @@
                     "mix": 100,
                     "gain": 0,
                     "thr": -37,
-                    "tgt": -25,
+                    "tgt": -24,
                     "spd": 20,
                     "ratio": 8,
-                    "hld": 0.865964,
-                    "range": 10
+                    "hld": 0.930572,
+                    "range": 11
                 },
                 "dynxo": {
                     "depth": 6,
@@ -24506,7 +24471,7 @@
                     },
                     "MX8": {
                         "on": true,
-                        "lvl": 0.024319,
+                        "lvl": 0,
                         "pre": false
                     }
                 },
@@ -24552,7 +24517,7 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": -7.226563,
+                "fdr": -18,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -24659,7 +24624,7 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": -15.19531,
+                "fdr": -24,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -25194,7 +25159,7 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": -144,
+                "fdr": 0,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -25275,7 +25240,7 @@
                 "in": {
                     "set": {
                         "inv": false,
-                        "trim": 10,
+                        "trim": 5,
                         "bal": 0
                     }
                 },
@@ -25301,7 +25266,7 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": -0.025082,
+                "fdr": 0.214844,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -25343,15 +25308,15 @@
                     "mix": 100,
                     "gain": 0,
                     "lon": true,
-                    "lthr": -6,
+                    "lthr": -9,
                     "lrec": "50",
                     "lfast": true,
                     "con": true,
-                    "cthr": -10.5,
+                    "cthr": -17.5,
                     "ratio": 1.5,
                     "crec": "400",
                     "cfast": false,
-                    "cgain": 3
+                    "cgain": 6
                 },
                 "dynxo": {
                     "depth": 6,
@@ -25359,9 +25324,9 @@
                     "f": 1002.374
                 },
                 "dynsc": {
-                    "type": "OFF",
-                    "f": 1002.374,
-                    "q": 1.995882,
+                    "type": "HP12",
+                    "f": 189.5381,
+                    "q": 5.946167,
                     "src": "SELF",
                     "tap": "BUS"
                 },
@@ -25627,8 +25592,7 @@
                 "frz": false,
                 "erl": 28,
                 "err": 26,
-                "add": false,
-                "lvl": 0
+                "add": false
             },
             "4": {
                 "mdl": "ST-DL",
@@ -25663,7 +25627,7 @@
             "9": {
                 "mdl": "C5-CMB",
                 "fxmix": 100,
-                "thr": -31.7,
+                "thr": -24.9,
                 "gain": 0,
                 "ratio": 2.5,
                 "slope": "24",
@@ -25681,7 +25645,7 @@
                 "gain_1": 4.5,
                 "gain_2": 0,
                 "gain_3": 0,
-                "gain_4": 3.2,
+                "gain_4": 1.7,
                 "gain_5": 2.8,
                 "byp_1": false,
                 "byp_2": false,
