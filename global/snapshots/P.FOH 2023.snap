@@ -539,6 +539,17 @@
                         "icon": 0,
                         "tags": ""
                     },
+                    "2": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": true,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "Snare",
+                        "icon": 0,
+                        "tags": ""
+                    },
                     "3": {
                         "mode": "M",
                         "g": 0,
