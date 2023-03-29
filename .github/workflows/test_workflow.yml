@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - releases
-
+      
 jobs:
-  test_job:
-    name: test
+  get_http:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "get http"
+      run:
+        
