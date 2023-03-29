@@ -1,7 +1,7 @@
 name: run main.py
 
 on:
-  - push
+  push
 
 jobs:
   build:
