@@ -3,7 +3,7 @@ name: run main.py
 on:
   push:
     branches:
-      - 'origin/automation_test'
+      - 'automation_test'
 
 jobs:
   build:
