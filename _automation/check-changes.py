@@ -2,18 +2,18 @@
 # json file
 
 import json
-from datetime import datetime
 from deepdiff import DeepDiff
 from mergedeep import merge
+import os
+import sys
 
 input = "P.FOH 2023"
 ref = "changes"
-output = ""
 
-with open("global/snapshots/%s.snap" % input, "r") as jsonFile:
+with open("../global/snapshots/%s.snap" % input, "r") as jsonFile:
     snap = json.load(jsonFile)
 
-with open("global/snapshots/%s.snap" % ref, "r") as jsonFile:
+with open("../global/snapshots/%s.snap" % ref, "r") as jsonFile:
     ref = json.load(jsonFile)
 
 # make backup
@@ -28,7 +28,11 @@ def recursive_get(d, keys):
     return recursive_get(d[keys[0]], keys[1:])
 
 
-changes = DeepDiff(snap, ref)['values_changed']
+changes = DeepDiff(snap, ref)
+changes = changes['values_changed'] if 'values_changed' in changes else False
+
+if changes == False:
+    sys.exit()
 
 result = {}
 for change in changes:
@@ -46,15 +50,12 @@ for change in changes:
 
 out = merge(snap, result)
 
-print(out)
-
-with open("global/snapshots/diff.snap", "w") as jsonFile:
-    json.dump(result, jsonFile)
+# with open("global/snapshots/diff.snap", "w") as jsonFile:
+#     json.dump(result, jsonFile)
 
 
-if output == "":
-    with open("global/snapshots/P.FOH 2023.snap", "w") as jsonFile:
+path = '../global/snapshots/_users'
+subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
+for subfolder in subfolders:
+    with open(subfolder + '/P.FOH 2023.snap', "w") as jsonFile:
         json.dump(snap, jsonFile)
-else:
-    with open("global/snapshots/%s.snap" % output, "w") as jsonFile:
-        json.dump(out, jsonFile)
