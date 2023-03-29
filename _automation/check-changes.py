@@ -10,7 +10,7 @@ import sys
 input = "P.FOH 2023"
 ref = "changes"
 
-with open("../../global/snapshots/%s.snap" % input, "r") as jsonFile:
+with open("global/snapshots/%s.snap" % input, "r") as jsonFile:
     snap = json.load(jsonFile)
 
 with open("../../global/snapshots/%s.snap" % ref, "r") as jsonFile:
