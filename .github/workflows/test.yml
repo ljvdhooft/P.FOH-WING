@@ -1,0 +1,8 @@
+name: run main.py
+
+on:
+  push
+
+jobs:
+  test_job:
+    name: test
