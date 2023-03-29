@@ -10,10 +10,10 @@ import sys
 input = "P.FOH 2023"
 ref = "changes"
 
-with open("../global/snapshots/%s.snap" % input, "r") as jsonFile:
+with open("../../global/snapshots/%s.snap" % input, "r") as jsonFile:
     snap = json.load(jsonFile)
 
-with open("../global/snapshots/%s.snap" % ref, "r") as jsonFile:
+with open("../../global/snapshots/%s.snap" % ref, "r") as jsonFile:
     ref = json.load(jsonFile)
 
 # make backup
@@ -54,7 +54,7 @@ out = merge(snap, result)
 #     json.dump(result, jsonFile)
 
 
-path = '../global/snapshots/_users'
+path = '../../global/snapshots/_users'
 subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
 for subfolder in subfolders:
     with open(subfolder + '/P.FOH 2023.snap', "w") as jsonFile:
