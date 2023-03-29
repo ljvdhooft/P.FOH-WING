@@ -2,8 +2,7 @@ name: run main.py
 
 on:
   push:
-    branches:
-      - 'automation_test'
+    branches: 'automation_test'
 
 jobs:
   build:
