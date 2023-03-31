@@ -63,4 +63,4 @@ for subfolder in subfolders:
     with open(subfolder + '/P.FOH 2023.snap', "w") as jsonFile:
         json.dump(out, jsonFile, sort_keys=True, indent=4)
 
-os.remove("global/snapshots/changes.snap")
+# os.remove("global/snapshots/changes.snap")
