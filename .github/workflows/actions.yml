@@ -24,7 +24,7 @@ jobs:
 
       - name: checkout branch
         run: |
-          git branch --list
+          git ls-tree --name-only master
           
       - name: execute py script # run py script
         env:
