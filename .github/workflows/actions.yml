@@ -23,7 +23,7 @@ jobs:
           pip install mergedeep
 
       - name: checkout branch
-        run: checkout automation_test
+        run: git checkout automation_test
           
       - name: execute py script # run py script
         env:
