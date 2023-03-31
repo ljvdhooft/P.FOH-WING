@@ -1,7 +1,9 @@
 name: run main.py
 
 on:
-  push
+  push:
+    branches:
+    - 'automation_test'
 
 jobs:
   build:
