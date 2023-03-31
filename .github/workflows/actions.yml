@@ -14,6 +14,10 @@ jobs:
         with:
           ref: automation_test
 
+      - name: checkout previous version
+        run: |
+          git show HEAD^:"global/snapshots/P.FOH 2023.snap" > global/snapshots/changes.snap
+
       - name: setup python
         uses: actions/setup-python@v4
         with:
