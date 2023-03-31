@@ -50,6 +50,10 @@ for change in changes:
 
 out = merge(snap, result)
 
+testDict = {
+    "test": True
+}
+
 # with open("global/snapshots/diff.snap", "w") as jsonFile:
 #     json.dump(result, jsonFile)
 
@@ -58,4 +62,4 @@ path = 'global/snapshots/_users'
 subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
 for subfolder in subfolders:
     with open(subfolder + '/P.FOH 2023.snap', "w") as jsonFile:
-        json.dump(snap, jsonFile)
+        json.dump(testDict, jsonFile)
