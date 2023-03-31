@@ -9,6 +9,9 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner
+          with:
+            ssh-key: ${{ secrets.AUTOMATION_PAT }}
+            ref: automation_test
 
       - name: setup python
         uses: actions/setup-python@v4
@@ -41,5 +44,5 @@ jobs:
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          ssh: true
           branch: automation_test 
