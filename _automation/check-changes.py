@@ -48,6 +48,8 @@ for change in changes:
             i += 1
     merge(result, new_dict)
 
+print(result)
+
 out = merge(snap, result)
 
 # with open("global/snapshots/diff.snap", "w") as jsonFile:
@@ -57,5 +59,8 @@ out = merge(snap, result)
 path = 'global/snapshots/_users'
 subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
 for subfolder in subfolders:
+    print("File updated in " + subfolder)
     with open(subfolder + '/P.FOH 2023.snap', "w") as jsonFile:
         json.dump(out, jsonFile, sort_keys=True, indent=4)
+
+os.remove("global/snapshots/changes.snap")
