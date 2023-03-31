@@ -23,10 +23,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install deepdiff
           pip install mergedeep
-
-      - name: checkout branch
-        run: |
-          git ls-tree --name-only master
           
       - name: execute py script # run py script
         # env:
