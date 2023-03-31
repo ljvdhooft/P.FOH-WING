@@ -24,7 +24,7 @@ jobs:
 
       - name: checkout branch
         run: |
-          git --version
+          git branch --list
           
       - name: execute py script # run py script
         env:
