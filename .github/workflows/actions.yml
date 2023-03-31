@@ -10,7 +10,6 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v3 # checkout the repository content to github runner
         with:
-          ssh-key: ${{ secrets.AUTOMATION_PAT }}
           ref: automation_test
 
       - name: setup python
@@ -30,8 +29,8 @@ jobs:
           git ls-tree --name-only master
           
       - name: execute py script # run py script
-        env:
-          SOME_SECRET: ${{ secrets.SOME_SECRET }}
+        # env:
+        #   SOME_SECRET: ${{ secrets.SOME_SECRET }}
         run: python _automation/check-changes.py
           
       - name: commit files
@@ -42,7 +41,7 @@ jobs:
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
           
       - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@master
         with:
-          ssh: true
+          github_token: ${{ secrets.AUTOMATION_PAT }}
           branch: automation_test 
