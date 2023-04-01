@@ -28,8 +28,10 @@ def recursive_get(d, keys):
     return recursive_get(d[keys[0]], keys[1:])
 
 
-changes = DeepDiff(snap, ref)
+changes = DeepDiff(ref, snap)
 changes = changes['values_changed'] if 'values_changed' in changes else False
+
+print(changes)
 
 if changes == False:
     sys.exit()
