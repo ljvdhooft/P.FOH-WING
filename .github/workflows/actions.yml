@@ -40,6 +40,7 @@ jobs:
           
       - name: commit files
         run: |
+          git show global/snapshots/changes.snap > testcase.snap
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -a -m "Automation update"
