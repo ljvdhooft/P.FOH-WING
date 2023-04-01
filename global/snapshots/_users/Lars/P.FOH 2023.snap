@@ -535,7 +535,7 @@
 						"mute": false,
 						"pol": false,
 						"col": 1,
-						"name": "final-1",
+						"name": "final-001",
 						"icon": 0,
 						"tags": ""
 					},
@@ -546,7 +546,7 @@
 						"mute": false,
 						"pol": false,
 						"col": 1,
-						"name": "final-2",
+						"name": "final-002",
 						"icon": 0,
 						"tags": ""
 					},
@@ -6508,9 +6508,9 @@
 					"tap": "IN"
 				},
 				"eq": {
-					"on": false,
+					"on": true,
 					"mdl": "STD",
-					"mix": 30,
+					"mix": 100,
 					"lg": 0,
 					"lf": 80.19642,
 					"lq": 0.99797,
