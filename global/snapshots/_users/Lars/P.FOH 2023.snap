@@ -535,7 +535,7 @@
 						"mute": false,
 						"pol": false,
 						"col": 1,
-						"name": ">01",
+						"name": "Kick",
 						"icon": 0,
 						"tags": ""
 					},
@@ -546,7 +546,7 @@
 						"mute": false,
 						"pol": false,
 						"col": 1,
-						"name": ">02",
+						"name": "Snare",
 						"icon": 0,
 						"tags": ""
 					},
