@@ -66,6 +66,6 @@ subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
 for subfolder in subfolders:
     print("File updated in " + subfolder)
     with open(subfolder + '/P.FOH 2023.snap', "w") as jsonFile:
-        json.dump(out, jsonFile)
+        json.dump(out, jsonFile, indent='\t')
 
 # os.remove("global/snapshots/changes.snap")
