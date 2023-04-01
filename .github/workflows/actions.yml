@@ -43,6 +43,7 @@ jobs:
           git show global/snapshots/changes.snap > testcase.snap
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add -A
           git commit -a -m "Automation update"
           
       - name: push changes
