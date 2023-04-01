@@ -50,7 +50,7 @@ for change in changes:
 
 print(result)
 
-with open('/diff.snap', "w") as jsonFile:
+with open('diff.snap', "w") as jsonFile:
     json.dump(result, jsonFile)
 
 out = merge(snap, result)
