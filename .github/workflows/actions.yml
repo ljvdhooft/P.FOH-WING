@@ -5,7 +5,7 @@ on:
     branches:
     - 'automation_test'
     paths:
-    - 'global/P.FOH 2023.snap'
+    - 'global/snapshots/P.FOH 2023.snap'
 
 jobs:
   build:
