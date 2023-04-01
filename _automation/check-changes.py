@@ -3,7 +3,7 @@
 
 import json
 from deepdiff import DeepDiff
-from mergedeep import merge, Strategy
+from mergedeep import merge
 import os
 import sys
 
@@ -50,18 +50,6 @@ for change in changes:
             i += 1
     merge(result, new_dict)
 
-print('result: ')
-print(result)
-
-with open('diff.snap', "w") as jsonFile:
-    json.dump(result, jsonFile)
-
-# out = merge(result, ref)
-
-# with open("global/snapshots/diff.snap", "w") as jsonFile:
-#     json.dump(result, jsonFile)
-
-
 path = 'global/snapshots/_users'
 subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
 for subfolder in subfolders:
@@ -71,4 +59,4 @@ for subfolder in subfolders:
         json.dump(merge(usersnap, result), jsonFile, indent='\t')
     print("File updated in " + subfolder)
 
-# os.remove("global/snapshots/changes.snap")
+os.remove("global/snapshots/previous.snap")
