@@ -8,7 +8,7 @@ import os
 import sys
 
 input = "P.FOH 2023"
-ref = "changes"
+ref = "previous"
 
 with open("global/snapshots/%s.snap" % input, "r") as jsonFile:
     snap = json.load(jsonFile)

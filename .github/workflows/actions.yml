@@ -19,7 +19,7 @@ jobs:
         with:
           ref: automation_test
           fetch-depth: 2
-      - run: git show HEAD^:"global/snapshots/P.FOH 2023.snap" > global/snapshots/changes.snap
+      - run: git show HEAD^:"global/snapshots/P.FOH 2023.snap" > global/snapshots/previous.snap
 
       - name: setup python
         uses: actions/setup-python@v4
@@ -40,7 +40,7 @@ jobs:
           
       - name: commit files
         run: |
-          git show global/snapshots/changes.snap > testcase.snap
+          git show global/snapshots/previous.snap > previous.snap
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
