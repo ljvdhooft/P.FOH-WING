@@ -4,6 +4,8 @@ on:
   push:
     branches:
     - 'automation_test'
+    paths:
+    - 'global/P.FOH 2023.snap'
 
 jobs:
   build:
@@ -19,7 +21,7 @@ jobs:
         with:
           ref: automation_test
           fetch-depth: 2
-      - run: git show HEAD^:"global/snapshots/P.FOH 2023.snap" > global/snapshots/changes.snap
+      - run: git show HEAD^:"global/snapshots/P.FOH 2023.snap" > global/snapshots/previous.snap
 
       - name: setup python
         uses: actions/setup-python@v4
@@ -42,6 +44,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add -A
           git commit -a -m "Automation update"
           
       - name: push changes
