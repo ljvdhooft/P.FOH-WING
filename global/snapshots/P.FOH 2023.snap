@@ -535,7 +535,7 @@
                         "mute": false,
                         "pol": false,
                         "col": 1,
-                        "name": "ch 0001",
+                        "name": "ch-0001",
                         "icon": 0,
                         "tags": ""
                     },
@@ -546,7 +546,7 @@
                         "mute": false,
                         "pol": false,
                         "col": 1,
-                        "name": "ch 0002",
+                        "name": "ch-0002",
                         "icon": 0,
                         "tags": ""
                     },
