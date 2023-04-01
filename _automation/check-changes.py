@@ -3,7 +3,7 @@
 
 import json
 from deepdiff import DeepDiff
-from mergedeep import merge
+from mergedeep import merge, Strategy
 import os
 import sys
 
@@ -53,7 +53,7 @@ print(result)
 with open('diff.snap', "w") as jsonFile:
     json.dump(result, jsonFile)
 
-out = merge(snap, result)
+out = merge(snap, result, strategy=Strategy.REPLACE)
 
 # with open("global/snapshots/diff.snap", "w") as jsonFile:
 #     json.dump(result, jsonFile)
