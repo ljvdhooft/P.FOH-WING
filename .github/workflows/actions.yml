@@ -4,6 +4,8 @@ on:
   push:
     branches:
     - 'automation_test'
+    paths:
+    - 'global/P.FOH 2023.snap'
 
 jobs:
   build:
@@ -40,7 +42,6 @@ jobs:
           
       - name: commit files
         run: |
-          git show global/snapshots/previous.snap > previous.snap
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
