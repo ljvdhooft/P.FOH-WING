@@ -6508,7 +6508,7 @@
                     "tap": "IN"
                 },
                 "eq": {
-                    "on": true,
+                    "on": false,
                     "mdl": "STD",
                     "mix": 100,
                     "lg": 0,
