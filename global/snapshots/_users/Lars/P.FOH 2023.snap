@@ -6508,10 +6508,10 @@
 					"tap": "IN"
 				},
 				"eq": {
-					"on": true,
+					"on": false,
 					"mdl": "STD",
-					"mix": 100,
-					"lg": 0,
+					"mix": 30,
+					"lg": 3,
 					"lf": 80.19642,
 					"lq": 0.99797,
 					"leq": "SHV",
