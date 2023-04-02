@@ -5,7 +5,6 @@ import json
 from deepdiff import DeepDiff
 from mergedeep import merge
 import os
-import sys
 
 input = "P.FOH 2023"
 ref = "previous"
@@ -33,30 +32,28 @@ changes = changes['values_changed'] if 'values_changed' in changes else False
 
 print(changes)
 
-if changes == False:
-    sys.exit()
+if changes != False:
+    result = {}
+    for change in changes:
+        keys = change[6:-2].split('\'][\'')
+        i = 1
+        new_dict = current = {}
+        for key in keys:
+            if i == len(keys):
+                current[key] = changes[change]['new_value']
+            else:
+                current[key] = {}
+                current = current[key]
+                i += 1
+        merge(result, new_dict)
 
-result = {}
-for change in changes:
-    keys = change[6:-2].split('\'][\'')
-    i = 1
-    new_dict = current = {}
-    for key in keys:
-        if i == len(keys):
-            current[key] = changes[change]['new_value']
-        else:
-            current[key] = {}
-            current = current[key]
-            i += 1
-    merge(result, new_dict)
-
-path = 'global/snapshots/_users'
-subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
-for subfolder in subfolders:
-    with open(subfolder + '/P.FOH 2023.snap', "r") as jsonFile:
-        usersnap = json.load(jsonFile)
-    with open(subfolder + '/P.FOH 2023.snap', "w") as jsonFile:
-        json.dump(merge(usersnap, result), jsonFile, indent='\t')
-    print("File updated in " + subfolder)
+    path = 'global/snapshots/_users'
+    subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
+    for subfolder in subfolders:
+        with open(subfolder + '/P.FOH 2023.snap', "r") as jsonFile:
+            usersnap = json.load(jsonFile)
+        with open(subfolder + '/P.FOH 2023.snap', "w") as jsonFile:
+            json.dump(merge(usersnap, result), jsonFile, indent='\t')
+        print("File updated in " + subfolder)
 
 os.remove("global/snapshots/previous.snap")
