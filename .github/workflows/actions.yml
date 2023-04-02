@@ -45,7 +45,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -a -m "Automation update"
+          git diff --quiet && git diff --staged --quiet || git commit -am 'Changes from master snapshot copied from Automation'
           
       - name: push changes
         uses: ad-m/github-push-action@master
