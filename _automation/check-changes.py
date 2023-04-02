@@ -5,10 +5,9 @@ import json
 from deepdiff import DeepDiff
 from mergedeep import merge
 import os
-import sys
 
 input = "P.FOH 2023"
-ref = "changes"
+ref = "previous"
 
 with open("global/snapshots/%s.snap" % input, "r") as jsonFile:
     snap = json.load(jsonFile)
@@ -28,25 +27,25 @@ def recursive_get(d, keys):
     return recursive_get(d[keys[0]], keys[1:])
 
 
-changes = DeepDiff(snap, ref)
+changes = DeepDiff(ref, snap)
 changes = changes['values_changed'] if 'values_changed' in changes else False
 
-if changes == False:
-    sys.exit()
+print(changes)
 
-result = {}
-for change in changes:
-    keys = change[6:-2].split('\'][\'')
-    i = 1
-    new_dict = current = {}
-    for key in keys:
-        if i == len(keys):
-            current[key] = changes[change]['new_value']
-        else:
-            current[key] = {}
-            current = current[key]
-            i += 1
-    merge(result, new_dict)
+if changes != False:
+    result = {}
+    for change in changes:
+        keys = change[6:-2].split('\'][\'')
+        i = 1
+        new_dict = current = {}
+        for key in keys:
+            if i == len(keys):
+                current[key] = changes[change]['new_value']
+            else:
+                current[key] = {}
+                current = current[key]
+                i += 1
+        merge(result, new_dict)
 
 print(result)
 
