@@ -19,10 +19,10 @@ jobs:
         with:
           fetch-depth: 2
       - run: |
-          find . -name 'P.FOH [0-9][0-9][0-9][0-9].[0-9][0-9]?(.[0-9][0-9])*.snap' -exec git show HEAD:{} > neww.snap \;
+          find . -name 'P.FOH [0-9][0-9][0-9][0-9].[0-9][0-9]?(.[0-9][0-9])*.snap' -exec git show HEAD:{} > new.snap \;
           git checkout HEAD~1
           find global/snapshots/P.FOH\ [0-9][0-9][0-9][0-9]*.snap -exec git show HEAD:{} > previous.snap \;
-          find global/snapshots/P.FOH\ [0-9][0-9][0-9][0-9]*.snap -exec git show HEAD:{} \;
+          head -20 previous.snap
           git checkout -
 
 
