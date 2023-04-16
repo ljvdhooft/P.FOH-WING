@@ -6,8 +6,8 @@ from deepdiff import DeepDiff
 from mergedeep import merge
 import os
 
-with open("new.snap", "r") as jsonFile:
-    snap = json.load(jsonFile)
+with open("new.snap", "r") as j:
+    snap = json.loads(j.read())
 
 with open("previous.snap", "r") as j:
     ref = json.loads(j.read())
