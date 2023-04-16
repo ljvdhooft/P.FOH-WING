@@ -7,10 +7,10 @@ from mergedeep import merge
 import os
 
 with open("new.snap", "r") as j:
-    snap = json.loads(j.read())
+    snap = json.load(j)
 
 with open("previous.snap", "r") as j:
-    ref = json.loads(j.read())
+    ref = json.load(j)
 
 # make backup
 # dt = str(datetime.now())[0:-7]
