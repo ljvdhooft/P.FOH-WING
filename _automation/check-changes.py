@@ -6,13 +6,10 @@ from deepdiff import DeepDiff
 from mergedeep import merge
 import os
 
-input = "new"
-ref = "previous"
-
-with open("%s.snap" % input, "r") as jsonFile:
+with open("new.snap", "r") as jsonFile:
     snap = json.load(jsonFile)
 
-with open("%s.snap" % ref, "r") as jsonFile:
+with open("previous.snap", "r") as jsonFile:
     ref = json.load(jsonFile)
 
 # make backup
