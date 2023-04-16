@@ -23,9 +23,6 @@ jobs:
           git checkout HEAD~1
           find . -name 'P.FOH [0-9][0-9][0-9][0-9].[0-9][0-9]*.snap' -exec git show HEAD:{} > previous.snap \;
           git checkout -
-          head -20 previous.snap
-          head -20 new.snap
-
 
       - name: setup python
         uses: actions/setup-python@v4
