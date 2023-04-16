@@ -22,7 +22,7 @@ jobs:
           find . -name 'P.FOH [0-9][0-9][0-9][0-9].[0-9][0-9](.[0-9])?.snap' -exec git show HEAD:{} > new.snap \;
           git checkout HEAD~1
           find global/snapshots/P.FOH\ [0-9][0-9][0-9][0-9]*.snap -exec git show HEAD~1:{} > previous.snap \;
-          git checkout master
+          git checkout -
 
 
       - name: setup python
