@@ -9,8 +9,8 @@ import os
 with open("new.snap", "r") as jsonFile:
     snap = json.load(jsonFile)
 
-with open("previous.snap", "r") as jsonFile:
-    ref = json.load(jsonFile)
+with open("previous.snap", "r") as j:
+    ref = json.loads(j.read())
 
 # make backup
 # dt = str(datetime.now())[0:-7]
