@@ -5,7 +5,7 @@ on:
     branches:
     - main
     paths:
-    - 'global/snapshots/P.FOH 2023.snap'
+    - 'global/snapshots/P.FOH [0-9][0-9][0-9][0-9]*.snap'
 
 jobs:
   build:
@@ -18,7 +18,11 @@ jobs:
         uses: actions/checkout@v3 # checkout the repository content to github runner
         with:
           fetch-depth: 2
-      - run: git show HEAD^:"global/snapshots/P.FOH 2023.snap" > global/snapshots/previous.snap
+      - run: find global/snapshots/P.FOH\ [0-9][0-9][0-9][0-9]*.snap -exec git show HEAD:{} > new.snap \;
+          git checkout HEAD~1
+          find global/snapshots/P.FOH\ [0-9][0-9][0-9][0-9]*.snap -exec git show HEAD~1:{} > previous.snap \;
+          git checkout master
+
 
       - name: setup python
         uses: actions/setup-python@v4

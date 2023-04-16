@@ -6,7 +6,7 @@ from deepdiff import DeepDiff
 from mergedeep import merge
 import os
 
-input = "P.FOH 2023"
+input = "new"
 ref = "previous"
 
 with open("global/snapshots/%s.snap" % input, "r") as jsonFile:
