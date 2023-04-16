@@ -9,10 +9,10 @@ import os
 input = "new"
 ref = "previous"
 
-with open("global/snapshots/%s.snap" % input, "r") as jsonFile:
+with open("%s.snap" % input, "r") as jsonFile:
     snap = json.load(jsonFile)
 
-with open("global/snapshots/%s.snap" % ref, "r") as jsonFile:
+with open("%s.snap" % ref, "r") as jsonFile:
     ref = json.load(jsonFile)
 
 # make backup
