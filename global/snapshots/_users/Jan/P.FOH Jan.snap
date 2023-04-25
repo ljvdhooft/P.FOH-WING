@@ -4779,8 +4779,8 @@
 						"in": 16
 					},
 					"3": {
-						"grp": "OFF",
-						"in": 1
+						"grp": "MTX",
+						"in": 13
 					},
 					"4": {
 						"grp": "OFF",
@@ -4813,8 +4813,8 @@
 						"in": 1
 					},
 					"3": {
-						"grp": "MTX",
-						"in": 13
+						"grp": "OFF",
+						"in": 1
 					},
 					"4": {
 						"grp": "OFF",
@@ -11901,23 +11901,19 @@
 				"main": {
 					"1": {
 						"on": true,
-						"lvl": 0,
-						"pre": false
+						"lvl": 0
 					},
 					"2": {
 						"on": false,
-						"lvl": 0,
-						"pre": false
+						"lvl": 0
 					},
 					"3": {
 						"on": false,
-						"lvl": 0,
-						"pre": false
+						"lvl": 0
 					},
 					"4": {
 						"on": true,
-						"lvl": 3,
-						"pre": false
+						"lvl": 3
 					}
 				},
 				"send": {
@@ -12033,7 +12029,7 @@
 					},
 					"12": {
 						"on": true,
-						"lvl": -9.951481,
+						"lvl": -9.95146,
 						"pon": false,
 						"ind": true,
 						"mode": "POST",
@@ -14636,7 +14632,7 @@
 				"icon": 0,
 				"led": true,
 				"mute": false,
-				"fdr": 0.015259,
+				"fdr": -20.13672,
 				"pan": 0,
 				"wid": 100,
 				"solosafe": false,
@@ -14951,7 +14947,7 @@
 				"icon": 0,
 				"led": true,
 				"mute": false,
-				"fdr": -0.014046,
+				"fdr": -19.92188,
 				"pan": 0,
 				"wid": 100,
 				"solosafe": false,
@@ -19504,7 +19500,7 @@
 						"bal": 0
 					},
 					"conn": {
-						"grp": "OFF",
+						"grp": "PLAY",
 						"in": 1,
 						"altgrp": "OFF",
 						"altin": 1
@@ -19512,7 +19508,7 @@
 				},
 				"clink": false,
 				"col": 1,
-				"name": "",
+				"name": "2Track",
 				"icon": 0,
 				"led": true,
 				"mute": false,
@@ -25603,7 +25599,8 @@
 				"frz": false,
 				"erl": 28,
 				"err": 26,
-				"add": false
+				"add": false,
+				"lvl": 0
 			},
 			"4": {
 				"mdl": "ST-DL",
@@ -25802,7 +25799,7 @@
 		},
 		"layer": {
 			"L": {
-				"sel": 2,
+				"sel": 1,
 				"1": {
 					"ofs": 0,
 					"name": "CH1-12",
@@ -26300,7 +26297,7 @@
 					}
 				},
 				"5": {
-					"ofs": 12,
+					"ofs": 0,
 					"name": "BUSES",
 					"1": {
 						"type": "BUS",
@@ -27927,48 +27924,48 @@
 				"1": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "Drum SOF",
 						"ch": 49
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "Vox1 SOF",
 						"ch": 53
 					}
 				},
 				"2": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "Bass SOF",
 						"ch": 50
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "Vox2 SOF",
 						"ch": 54
 					}
 				},
 				"3": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "Git SOF",
 						"ch": 51
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "Vox3 SOF",
 						"ch": 55
 					}
 				},
 				"4": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "Keys SOF",
 						"ch": 52
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "Vox4 SOF",
 						"ch": 56
 					}
 				}
@@ -28261,8 +28258,9 @@
 						"name": ""
 					},
 					"bu": {
-						"mode": "OFF",
-						"name": ""
+						"mode": "OTHER",
+						"name": "",
+						"other": "ALTSRC"
 					},
 					"bd": {
 						"mode": "OFF",
