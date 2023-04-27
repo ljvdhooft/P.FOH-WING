@@ -12,12 +12,6 @@ with open("new.snap", "r") as j:
 with open("previous.snap", "r") as j:
     ref = json.load(j)
 
-# make backup
-# dt = str(datetime.now())[0:-7]
-# with open("archive/%s_%s.snap" % (input, dt), "w") as jsonFile:
-#     json.dump(snap, jsonFile)
-
-
 def recursive_get(d, keys):
     if len(keys) == 1:
         return d[keys[0]]
@@ -46,17 +40,14 @@ if changes != False:
 
     print(result)
 
-    out = merge(snap, result)
-
-    # with open("global/snapshots/diff.snap", "w") as jsonFile:
-    #     json.dump(result, jsonFile)
-
-
     path = 'global/snapshots/_users'
     subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
     for subfolder in subfolders:
         print("File updated in " + subfolder)
         snapname = subfolder + '/P.FOH ' + subfolder[24:] + '.snap'
+        with open(snapname, "r") as j:
+            target = json.load(j)
+        out = merge(target, result)
         with open(snapname, "w") as jsonFile:
             json.dump(out, jsonFile, indent='\t')
 
