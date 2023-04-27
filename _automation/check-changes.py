@@ -58,7 +58,7 @@ if changes != False:
         print("File updated in " + subfolder)
         snapname = subfolder + '/P.FOH ' + subfolder[24:] + '.snap'
         with open(snapname, "w") as jsonFile:
-            json.dump(out, jsonFile, sort_keys=True, indent=4)
+            json.dump(out, jsonFile, indent='\t')
 
 os.remove("new.snap")
 os.remove("previous.snap")
