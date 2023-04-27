@@ -14915,7 +14915,7 @@
 					"ins": "NONE",
 					"w": 0
 				},
-				"tags": ""
+				"tags": "AMBI'S"
 			},
 			"28": {
 				"in": {
@@ -15230,7 +15230,7 @@
 					"ins": "NONE",
 					"w": 0
 				},
-				"tags": ""
+				"tags": "AMBI'S"
 			},
 			"29": {
 				"in": {
@@ -19504,7 +19504,7 @@
 						"bal": 0
 					},
 					"conn": {
-						"grp": "OFF",
+						"grp": "PLAY",
 						"in": 1,
 						"altgrp": "OFF",
 						"altin": 1
@@ -19512,7 +19512,7 @@
 				},
 				"clink": false,
 				"col": 1,
-				"name": "",
+				"name": "2Track",
 				"icon": 0,
 				"led": true,
 				"mute": false,
@@ -19584,7 +19584,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19594,7 +19594,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19604,7 +19604,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19614,7 +19614,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19624,7 +19624,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19634,7 +19634,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19644,7 +19644,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19654,7 +19654,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -24421,7 +24421,7 @@
 					"mdl": "RIDE",
 					"mix": 100,
 					"gain": 0,
-					"thr": -37,
+					"thr": -42,
 					"tgt": -24,
 					"spd": 20,
 					"ratio": 8,
@@ -25277,7 +25277,7 @@
 				"led": true,
 				"busmono": false,
 				"mute": false,
-				"fdr": 0.214844,
+				"fdr": -1.054688,
 				"pan": 0,
 				"wid": 100,
 				"mon": "A",
@@ -25323,7 +25323,7 @@
 					"lrec": "50",
 					"lfast": true,
 					"con": true,
-					"cthr": -17.5,
+					"cthr": -13.5,
 					"ratio": 1.5,
 					"crec": "400",
 					"cfast": false,
@@ -25430,7 +25430,7 @@
 				"mon": "A"
 			},
 			"9": {
-				"name": "DCA.9",
+				"name": "AMBI'S",
 				"col": 1,
 				"icon": 0,
 				"led": false,
@@ -27735,8 +27735,8 @@
 						"dst": 1
 					},
 					"3": {
-						"type": "OFF",
-						"i": 0,
+						"type": "DCA",
+						"i": 9,
 						"dst": 1
 					},
 					"4": {
