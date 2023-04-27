@@ -27923,48 +27923,48 @@
 				"1": {
 					"bu": {
 						"mode": "SOF",
-						"name": "|MON Drums",
+						"name": "",
 						"ch": 49
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "|MON Vox 1",
+						"name": "",
 						"ch": 53
 					}
 				},
 				"2": {
 					"bu": {
 						"mode": "SOF",
-						"name": "|MON Bass",
+						"name": "",
 						"ch": 50
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "|MON Vox 2",
+						"name": "",
 						"ch": 54
 					}
 				},
 				"3": {
 					"bu": {
 						"mode": "SOF",
-						"name": "|MON Git",
+						"name": "",
 						"ch": 51
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "|MON Vox 3",
+						"name": "",
 						"ch": 55
 					}
 				},
 				"4": {
 					"bu": {
 						"mode": "SOF",
-						"name": "|MON Keys",
+						"name": "",
 						"ch": 52
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "|MON Vox 4",
+						"name": "",
 						"ch": 56
 					}
 				}
