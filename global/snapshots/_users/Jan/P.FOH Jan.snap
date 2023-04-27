@@ -27924,48 +27924,48 @@
 				"1": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Drums",
 						"ch": 49
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Vox 1",
 						"ch": 53
 					}
 				},
 				"2": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Bass",
 						"ch": 50
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Vox 2",
 						"ch": 54
 					}
 				},
 				"3": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Git",
 						"ch": 51
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Vox 3",
 						"ch": 55
 					}
 				},
 				"4": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Keys",
 						"ch": 52
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Vox 4",
 						"ch": 56
 					}
 				}
@@ -28168,82 +28168,82 @@
 			},
 			"1": {
 				"1": {
-					"led": false,
-					"col": 1,
+					"led": true,
+					"col": 11,
 					"enc": {
 						"mode": "FX",
-						"name": "",
+						"name": "|FX1 DECAY",
 						"fx": "FX1",
 						"par": 14
 					},
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|VRB SENDS",
 						"ch": 61
 					},
 					"bd": {
 						"mode": "MUTE",
-						"name": "",
+						"name": "|HALL MUTE",
 						"ch": 61
 					}
 				},
 				"2": {
-					"led": false,
-					"col": 1,
+					"led": true,
+					"col": 11,
 					"enc": {
 						"mode": "FX",
-						"name": "",
+						"name": "|FX2 DECAY",
 						"fx": "FX2",
 						"par": 3
 					},
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|VRB SENDS",
 						"ch": 62
 					},
 					"bd": {
 						"mode": "MUTE",
-						"name": "",
+						"name": "|PLATE MUTE",
 						"ch": 62
 					}
 				},
 				"3": {
-					"led": false,
-					"col": 1,
+					"led": true,
+					"col": 11,
 					"enc": {
 						"mode": "FX",
-						"name": "",
+						"name": "|FX3 DECAY",
 						"fx": "FX3",
 						"par": 3
 					},
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|VRB SENDS",
 						"ch": 63
 					},
 					"bd": {
 						"mode": "MUTE",
-						"name": "",
+						"name": "|ROOM MUTE",
 						"ch": 63
 					}
 				},
 				"4": {
-					"led": false,
-					"col": 1,
+					"led": true,
+					"col": 11,
 					"enc": {
 						"mode": "FX",
-						"name": "",
+						"name": "|FX4 FEED",
 						"fx": "FX4",
 						"par": 6
 					},
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|DLY SENDS",
 						"ch": 64
 					},
 					"bd": {
 						"mode": "FXPAR",
-						"name": "",
+						"name": "        TAP",
 						"fx": "FX4",
 						"par": 1
 					}
