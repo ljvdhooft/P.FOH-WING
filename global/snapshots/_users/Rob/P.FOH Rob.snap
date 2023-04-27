@@ -4779,8 +4779,8 @@
 						"in": 16
 					},
 					"3": {
-						"grp": "OFF",
-						"in": 1
+						"grp": "MTX",
+						"in": 13
 					},
 					"4": {
 						"grp": "OFF",
@@ -11901,23 +11901,19 @@
 				"main": {
 					"1": {
 						"on": true,
-						"lvl": 0,
-						"pre": false
+						"lvl": 0
 					},
 					"2": {
 						"on": false,
-						"lvl": 0,
-						"pre": false
+						"lvl": 0
 					},
 					"3": {
 						"on": false,
-						"lvl": 0,
-						"pre": false
+						"lvl": 0
 					},
 					"4": {
 						"on": true,
-						"lvl": 3,
-						"pre": false
+						"lvl": 3
 					}
 				},
 				"send": {
@@ -12033,7 +12029,7 @@
 					},
 					"12": {
 						"on": true,
-						"lvl": -9.951481,
+						"lvl": -9.951479,
 						"pon": false,
 						"ind": true,
 						"mode": "POST",
@@ -27927,48 +27923,48 @@
 				"1": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Drums",
 						"ch": 49
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Vox 1",
 						"ch": 53
 					}
 				},
 				"2": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Bass",
 						"ch": 50
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Vox 2",
 						"ch": 54
 					}
 				},
 				"3": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Git",
 						"ch": 51
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Vox 3",
 						"ch": 55
 					}
 				},
 				"4": {
 					"bu": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Keys",
 						"ch": 52
 					},
 					"bd": {
 						"mode": "SOF",
-						"name": "",
+						"name": "|MON Vox 4",
 						"ch": 56
 					}
 				}
