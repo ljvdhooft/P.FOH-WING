@@ -18,8 +18,15 @@ def recursive_get(d, keys):
     return recursive_get(d[keys[0]], keys[1:])
 
 
-changes = DeepDiff(ref, snap)
-changes = changes['values_changed'] if 'values_changed' in changes else False
+diff = DeepDiff(ref, snap)
+changes = {}
+if 'type_changes' in diff:
+    changes.update(diff['type_changes'])
+if 'values_changed' in diff:
+    changes.update(diff['values_changed'])
+if 'type_changes' and 'values_changed' not in diff:
+    changes = False
+
 
 print(changes)
 
