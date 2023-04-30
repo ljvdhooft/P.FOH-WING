@@ -1,3 +1,4 @@
 .DS_Store
 script.py
 archive/
+.github/workflows/test.yml
