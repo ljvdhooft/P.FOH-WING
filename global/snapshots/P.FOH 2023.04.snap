@@ -25431,7 +25431,7 @@
 				"icon": 0,
 				"led": false,
 				"mute": false,
-				"fdr": -7.216797,
+				"fdr": 0,
 				"mon": "A"
 			},
 			"10": {
