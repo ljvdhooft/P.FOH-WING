@@ -27740,9 +27740,10 @@
 						"dst": 1
 					},
 					"4": {
-						"type": "BUS",
-						"i": 28,
-						"dst": 1
+						"type": "MIDI",
+						"i": 3,
+						"dst": 16,
+						"val": 0
 					},
 					"5": {
 						"type": "BUS",
@@ -28026,9 +28027,9 @@
 			"daw2": {
 				"1": {
 					"bu": {
-						"mode": "DAWBTN",
+						"mode": "SDRECA",
 						"name": "STOP",
-						"btn": "T1"
+						"sdrec": "STOP"
 					},
 					"bd": {
 						"mode": "DAWBTN",
@@ -28066,7 +28067,7 @@
 					},
 					"bd": {
 						"mode": "DAWBTN",
-						"name": "|EDIT MARKER",
+						"name": "+MARKER",
 						"btn": "T6"
 					}
 				}
