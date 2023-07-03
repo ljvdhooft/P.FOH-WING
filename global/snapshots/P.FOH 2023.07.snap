@@ -393,7 +393,7 @@
 						"tags": ""
 					},
 					"5": {
-						"mode": "M",
+						"mode": "ST",
 						"g": 0,
 						"vph": false,
 						"mute": false,
@@ -404,7 +404,7 @@
 						"tags": ""
 					},
 					"6": {
-						"mode": "M",
+						"mode": "ST",
 						"g": 0,
 						"vph": false,
 						"mute": false,
@@ -12029,7 +12029,7 @@
 					},
 					"12": {
 						"on": true,
-						"lvl": -9.951469,
+						"lvl": -9.95146,
 						"pon": false,
 						"ind": true,
 						"mode": "POST",
@@ -19000,12 +19000,12 @@
 						"srcauto": false,
 						"altsrc": false,
 						"inv": false,
-						"trim": 10,
+						"trim": 8,
 						"bal": 0
 					},
 					"conn": {
-						"grp": "AUX",
-						"in": 1,
+						"grp": "LCL",
+						"in": 5,
 						"altgrp": "CRD",
 						"altin": 41
 					}
@@ -19580,7 +19580,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "POST",
+						"mode": "PRE",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19590,7 +19590,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "POST",
+						"mode": "PRE",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19600,7 +19600,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "POST",
+						"mode": "PRE",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19610,7 +19610,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "POST",
+						"mode": "PRE",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19620,7 +19620,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "POST",
+						"mode": "PRE",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19630,7 +19630,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "POST",
+						"mode": "PRE",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19640,7 +19640,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "POST",
+						"mode": "PRE",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19650,7 +19650,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "POST",
+						"mode": "PRE",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -25273,7 +25273,7 @@
 				"led": true,
 				"busmono": false,
 				"mute": false,
-				"fdr": -1.054688,
+				"fdr": -0.908203,
 				"pan": 0,
 				"wid": 100,
 				"mon": "A",
@@ -25799,7 +25799,7 @@
 		},
 		"layer": {
 			"L": {
-				"sel": 1,
+				"sel": 4,
 				"1": {
 					"ofs": 0,
 					"name": "CH1-12",
