@@ -19580,7 +19580,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19590,7 +19590,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19600,7 +19600,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19610,7 +19610,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19620,7 +19620,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19630,7 +19630,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19640,7 +19640,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
@@ -19650,7 +19650,7 @@
 						"lvl": -10,
 						"pon": false,
 						"ind": false,
-						"mode": "PRE",
+						"mode": "POST",
 						"plink": false,
 						"pan": 0,
 						"wid": 100
