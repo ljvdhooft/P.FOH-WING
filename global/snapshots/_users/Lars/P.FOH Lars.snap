@@ -350,12 +350,12 @@
 				"LCL": {
 					"1": {
 						"mode": "M",
-						"g": 0,
-						"vph": false,
+						"g": 35,
+						"vph": true,
 						"mute": false,
 						"pol": false,
 						"col": 1,
-						"name": "",
+						"name": "REF",
 						"icon": 0,
 						"tags": ""
 					},
@@ -5735,7 +5735,7 @@
 						"in": 1
 					},
 					"47": {
-						"grp": "OFF",
+						"grp": "LCL",
 						"in": 1
 					},
 					"48": {
@@ -20496,7 +20496,7 @@
 						"bal": 0
 					},
 					"conn": {
-						"grp": "OFF",
+						"grp": "LCL",
 						"in": 1,
 						"altgrp": "OFF",
 						"altin": 1
@@ -20504,7 +20504,7 @@
 				},
 				"clink": true,
 				"col": 1,
-				"name": "",
+				"name": "REF",
 				"icon": 0,
 				"led": false,
 				"mute": false,
@@ -20554,20 +20554,20 @@
 				},
 				"main": {
 					"1": {
-						"on": true,
-						"lvl": 0
+						"on": false,
+						"lvl": -144
 					},
 					"2": {
-						"on": true,
-						"lvl": 0
+						"on": false,
+						"lvl": -144
 					},
 					"3": {
 						"on": false,
-						"lvl": 0
+						"lvl": -144
 					},
 					"4": {
-						"on": true,
-						"lvl": 0
+						"on": false,
+						"lvl": -144
 					}
 				},
 				"send": {
@@ -25775,7 +25775,7 @@
 			"soloexcl": true,
 			"selfsolo": true,
 			"solofsel": false,
-			"sof2solo": false,
+			"sof2solo": true,
 			"layerlinkl": false,
 			"layerlinkr": false,
 			"autoview": false,
