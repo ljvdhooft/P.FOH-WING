@@ -5,9 +5,9 @@
 	"creator_model": "ngc-full",
 	"creator_version": "SX45-XU2",
 	"creator_name": "PAROUSIA-FOH",
-	"created": "2023-09-19 15:33:49",
+	"created": "2023-10-16 13:36:57",
 	"active_show": "",
-	"active_scene": "I:/library/GLOBAL/snapshots/P.FOH 2023.07.snap",
+	"active_scene": "I:/library/GLOBAL/snapshots/_USERS/Lars/_services/mastering.snap",
 	"ae_data": {
 		"cfg": {
 			"mainlink": "2",
@@ -203,7 +203,7 @@
 		},
 		"io": {
 			"altsw": false,
-			"autoaltovr": false,
+			"autoaltovr": true,
 			"in": {
 				"LCL": {
 					"1": {
@@ -24628,7 +24628,7 @@
 				"in": {
 					"set": {
 						"inv": false,
-						"trim": 0,
+						"trim": 10,
 						"bal": 0
 					}
 				},
@@ -24638,7 +24638,7 @@
 				"led": true,
 				"busmono": false,
 				"mute": false,
-				"fdr": -0.3515625,
+				"fdr": -0.399999619,
 				"pan": 0,
 				"wid": 100,
 				"mon": "A",
@@ -24664,11 +24664,11 @@
 					"mix": 100,
 					"gain": 0,
 					"thr": -42,
-					"tgt": -22.5,
+					"tgt": -17,
 					"spd": 20,
 					"ratio": 8,
-					"hld": 0.930572152,
-					"range": 11.5
+					"hld": 2.548297167,
+					"range": 11
 				},
 				"dynxo": {
 					"depth": 6,
@@ -25493,7 +25493,7 @@
 				"in": {
 					"set": {
 						"inv": false,
-						"trim": 5,
+						"trim": 0,
 						"bal": 0
 					}
 				},
@@ -25519,7 +25519,7 @@
 				"led": true,
 				"busmono": false,
 				"mute": false,
-				"fdr": -0.908203125,
+				"fdr": -0.899999619,
 				"pan": 0,
 				"wid": 100,
 				"mon": "A",
@@ -25561,11 +25561,11 @@
 					"mix": 100,
 					"gain": 0,
 					"lon": true,
-					"lthr": -9,
+					"lthr": -6.5,
 					"lrec": "50",
 					"lfast": true,
 					"con": true,
-					"cthr": -13.5,
+					"cthr": -16,
 					"ratio": 1.5,
 					"crec": "400",
 					"cfast": false,
@@ -25881,7 +25881,7 @@
 			"9": {
 				"mdl": "C5-CMB",
 				"fxmix": 100,
-				"thr": -24.89999962,
+				"thr": -17.89999962,
 				"gain": 0,
 				"ratio": 2.5,
 				"slope": "24",
@@ -28109,8 +28109,8 @@
 		},
 		"user": {
 			"sel": 1,
-			"mode": "SHOW",
-			"cmode": "U1",
+			"mode": "2TRK",
+			"cmode": "PAN",
 			"gpio": {
 				"1": {
 					"bu": {
@@ -29457,7 +29457,7 @@
 				}
 			},
 			"cuser": {
-				"1": 1,
+				"1": 5,
 				"2": 1,
 				"3": 1
 			}
@@ -29481,49 +29481,49 @@
 			}
 		},
 		"safes": {
-			"ch": "",
-			"aux": "",
-			"bus": "",
-			"main": "",
-			"mtx": "",
-			"dca": "",
-			"mute": "",
-			"fx": "",
+			"ch": "                                        ",
+			"aux": "        ",
+			"bus": "                ",
+			"main": "    ",
+			"mtx": "        ",
+			"dca": "                ",
+			"mute": "        ",
+			"fx": "                ",
 			"source": {
-				"LCL": "",
-				"AUX": "",
-				"A": "",
-				"B": "",
-				"C": "",
-				"SC": "",
-				"USB": "",
-				"CRD": "",
-				"MOD": "",
-				"PLAY": "",
-				"AES": "",
-				"USR": "",
-				"OSC": ""
+				"LCL": "        ",
+				"AUX": "        ",
+				"A": "                                                ",
+				"B": "                                                ",
+				"C": "                                                ",
+				"SC": "                                ",
+				"USB": "                                                ",
+				"CRD": "                                                                ",
+				"MOD": "                                                                ",
+				"PLAY": "    ",
+				"AES": "  ",
+				"USR": "                        ",
+				"OSC": "  "
 			},
 			"output": {
-				"LCL": "",
-				"AUX": "",
-				"A": "",
-				"B": "",
-				"C": "",
-				"SC": "",
-				"USB": "",
-				"CRD": "",
-				"MOD": "",
-				"REC": "",
-				"AES": ""
+				"LCL": "        ",
+				"AUX": "        ",
+				"A": "                                                ",
+				"B": "                                                ",
+				"C": "                                                ",
+				"SC": "                                ",
+				"USB": "                                                ",
+				"CRD": "                                                                ",
+				"MOD": "                                                                ",
+				"REC": "    ",
+				"AES": "  "
 			},
 			"area": {
 				"LEFT": "",
 				"CENTER": "",
 				"RIGHT": ""
 			},
-			"custom": "",
-			"setup": ""
+			"custom": "                      ",
+			"setup": "  "
 		},
 		"daw": {
 			"on": false,
@@ -29552,7 +29552,7 @@
 	"ae_globals": {
 		"clkrate": 48000,
 		"clksrc": "INT",
-		"startmute": true,
+		"startmute": false,
 		"usbacfg": "48/48",
 		"sccfg": "AUTO",
 		"harmt": {

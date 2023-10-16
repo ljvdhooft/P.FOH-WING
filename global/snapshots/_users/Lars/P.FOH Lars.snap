@@ -24330,7 +24330,7 @@
 					},
 					"MX3": {
 						"on": true,
-						"lvl": -1.907348633e-06,
+						"lvl": -1.907348633e-6,
 						"pre": false
 					},
 					"MX4": {
@@ -27143,7 +27143,7 @@
 					}
 				},
 				"4": {
-					"ofs": 8,
+					"ofs": 0,
 					"name": "BUSES",
 					"1": {
 						"type": "BUS",
@@ -28110,7 +28110,7 @@
 		},
 		"user": {
 			"sel": 1,
-			"mode": "SHOW",
+			"mode": "USER",
 			"cmode": "PAN",
 			"gpio": {
 				"1": {
@@ -29482,14 +29482,14 @@
 			}
 		},
 		"safes": {
-			"ch": "",
-			"aux": "",
-			"bus": "",
-			"main": "",
-			"mtx": "",
+			"ch": "                                        ",
+			"aux": "        ",
+			"bus": "                ",
+			"main": "    ",
+			"mtx": "        ",
 			"dca": "                ",
 			"mute": "        ",
-			"fx": "",
+			"fx": "                ",
 			"source": {
 				"LCL": "        ",
 				"AUX": "        ",
@@ -29527,8 +29527,8 @@
 			"setup": "  "
 		},
 		"daw": {
-			"on": false,
-			"conn": "DIN",
+			"on": true,
+			"conn": "USB",
 			"emul": "MCU",
 			"config": "CC",
 			"ccup": false,
@@ -29536,14 +29536,14 @@
 			"preset": "-"
 		},
 		"midi": {
-			"enchctl": "OFF",
-			"enfxctl": "OFF",
-			"encustctl": "OFF",
-			"ensysex": "OFF",
-			"enmidicc": "OFF",
-			"enscenes": "OFF",
-			"enshowctl": "OFF",
-			"enscenetx": "OFF"
+			"enchctl": "USB",
+			"enfxctl": "USB",
+			"encustctl": "USB",
+			"ensysex": "USB",
+			"enmidicc": "USB",
+			"enscenes": "USB",
+			"enshowctl": "USB",
+			"enscenetx": "USB"
 		},
 		"osc": {
 			"ronly": false
@@ -29572,12 +29572,13 @@
 		"fdrres": "AUTO",
 		"fdrspd": "FAST",
 		"mousetchdis": false,
-		"mousespd": 1,
+		"mousespd": 0.99000001,
 		"tapflash": "ON",
 		"srcdisp": false,
 		"lockmtr": false,
 		"cf_load": true,
 		"cf_upd": true,
 		"usewheel": false
-	}
+	},
+	"updated": "2023-09-19 16:10:23"
 }
