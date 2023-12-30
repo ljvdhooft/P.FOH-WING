@@ -4935,8 +4935,13 @@
 						"in": 1
 					},
 					"8": {
+<<<<<<< HEAD
 						"grp": "OFF",
 						"in": 1
+=======
+						"grp": "BUS",
+						"in": 23
+>>>>>>> dev
 					}
 				},
 				"AUX": {
@@ -13227,7 +13232,11 @@
 				"main": {
 					"1": {
 						"on": false,
+<<<<<<< HEAD
 						"lvl": -144,
+=======
+						"lvl": 0,
+>>>>>>> dev
 						"pre": false
 					},
 					"2": {
@@ -13546,7 +13555,11 @@
 				"main": {
 					"1": {
 						"on": false,
+<<<<<<< HEAD
 						"lvl": -144,
+=======
+						"lvl": 0,
+>>>>>>> dev
 						"pre": false
 					},
 					"2": {
@@ -13865,7 +13878,11 @@
 				"main": {
 					"1": {
 						"on": false,
+<<<<<<< HEAD
 						"lvl": -144,
+=======
+						"lvl": 0,
+>>>>>>> dev
 						"pre": false
 					},
 					"2": {
@@ -14315,8 +14332,13 @@
 						"wid": 100
 					},
 					"12": {
+<<<<<<< HEAD
 						"on": true,
 						"lvl": -20.02914047,
+=======
+						"on": false,
+						"lvl": -144,
+>>>>>>> dev
 						"pon": false,
 						"ind": true,
 						"mode": "POST",
@@ -23286,7 +23308,11 @@
 				"name": "CUES",
 				"icon": 0,
 				"led": false,
+<<<<<<< HEAD
 				"busmono": false,
+=======
+				"busmono": true,
+>>>>>>> dev
 				"mute": false,
 				"fdr": 0.013641357,
 				"pan": 0,
@@ -29612,5 +29638,5 @@
 		"cf_upd": true,
 		"usewheel": false
 	},
-	"updated": "2023-12-29 21:49:00"
+	"updated": "2023-12-29 21:40:00"
 }
