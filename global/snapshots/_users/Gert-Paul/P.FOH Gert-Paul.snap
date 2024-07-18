@@ -9630,9 +9630,9 @@
 					},
 					"conn": {
 						"grp": "A",
-						"in": 13,
+						"in": 39,
 						"altgrp": "CRD",
-						"altin": 13
+						"altin": 39
 					}
 				},
 				"flt": {
