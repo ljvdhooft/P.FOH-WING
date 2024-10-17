@@ -1,1 +1,92 @@
-{"type":"showfile.1","creator_fw":"2.1-0-gfe0c4575:release","creator_sn":"S220800180BV2","creator_model":"wing","creator_version":"SX45-XU2","creator_name":"PAROUSIA-FOH","created":"2024-09-29 09:26:54","active_show":"I:/library/GLOBAL/snapshots/_USERS/Lars/P.FOH Lars.show","active_scene":"I:/library/GLOBAL/snapshots/_USERS/Lars/UTILS/TB to MAIN OFF.snap","scenes":{"count":9,"1":{"name":"2024-09-29 ZO O","skip":false,"link":false,"type":"SNAP","info":"","tag":"","midi_tx":"","file":"_services/2024/2024-09-29 ZO O.snap"},"2":{"name":"TB to MAIN OFF","skip":false,"link":false,"type":"SNAP","info":"","tag":"","midi_tx":"","file":"UTILS/TB to MAIN OFF.snap"},"3":{"name":"TB to MAIN ON","skip":false,"link":false,"type":"SNAP","info":"","tag":"","midi_tx":"","file":"UTILS/TB to MAIN ON.snap"},"4":{"name":"CLICK+CUE to MAIN OFF","skip":false,"link":false,"type":"SNAP","info":"","tag":"","midi_tx":"","file":"UTILS/CLICK+CUE to MAIN OFF.snap"},"5":{"name":"CLICK+CUE to MAIN ON","skip":false,"link":false,"type":"SNAP","info":"","tag":"","midi_tx":"","file":"UTILS/CLICK+CUE to MAIN ON.snap"},"6":{"name":"TB FOH to MAIN OFF","skip":false,"link":false,"type":"SNAP","info":"","tag":"","midi_tx":"","file":"UTILS/TB FOH to MAIN OFF.snap"},"7":{"name":"TB FOH to MAIN ON","skip":false,"link":false,"type":"SNAP","info":"","tag":"","midi_tx":"","file":"UTILS/TB FOH to MAIN ON.snap"},"8":{"name":"Speech to MON OFF","skip":false,"link":false,"type":"SNAP","info":"","tag":"","midi_tx":"","file":"UTILS/Speech to MON OFF.snap"},"9":{"name":"Speech to MON ON","skip":false,"link":false,"type":"SNAP","info":"","tag":"","midi_tx":"","file":"UTILS/Speech to MON ON.snap"}}}
+{
+	"type": "showfile.1",
+	"creator_fw": "VERSION_FULL",
+	"creator_sn": "NO_SERIAL",
+	"creator_model": "WING-EDIT",
+	"creator_version": "1.3.1",
+	"creator_name": "",
+	"created": "2000-144-01 17:55:00",
+	"scenes": {
+		"count": 8,
+		"1": {
+			"name": "TB to MAIN OFF",
+			"skip": false,
+			"link": false,
+			"type": "SNAP",
+			"info": "",
+			"tag": "#2",
+			"midi_tx": "",
+			"file": "UTILS/TB to MAIN OFF.snap"
+		},
+		"2": {
+			"name": "TB to MAIN ON",
+			"skip": false,
+			"link": false,
+			"type": "SNAP",
+			"info": "",
+			"tag": "#3",
+			"midi_tx": "",
+			"file": "UTILS/TB to MAIN ON.snap"
+		},
+		"3": {
+			"name": "CLICK+CUE to MAIN OFF",
+			"skip": false,
+			"link": false,
+			"type": "SNAP",
+			"info": "",
+			"tag": "#4",
+			"midi_tx": "",
+			"file": "UTILS/CLICK+CUE to MAIN OFF.snap"
+		},
+		"4": {
+			"name": "CLICK+CUE to MAIN ON",
+			"skip": false,
+			"link": false,
+			"type": "SNAP",
+			"info": "",
+			"tag": "#5",
+			"midi_tx": "",
+			"file": "UTILS/CLICK+CUE to MAIN ON.snap"
+		},
+		"5": {
+			"name": "TB FOH to MAIN OFF",
+			"skip": false,
+			"link": false,
+			"type": "SNAP",
+			"info": "",
+			"tag": "#6",
+			"midi_tx": "",
+			"file": "UTILS/TB FOH to MAIN OFF.snap"
+		},
+		"6": {
+			"name": "TB FOH to MAIN ON",
+			"skip": false,
+			"link": false,
+			"type": "SNAP",
+			"info": "",
+			"tag": "#7",
+			"midi_tx": "",
+			"file": "UTILS/TB FOH to MAIN ON.snap"
+		},
+		"7": {
+			"name": "Speech to MON OFF",
+			"skip": false,
+			"link": false,
+			"type": "SNAP",
+			"info": "",
+			"tag": "#8",
+			"midi_tx": "",
+			"file": "UTILS/Speech to MON OFF.snap"
+		},
+		"8": {
+			"name": "Speech to MON ON",
+			"skip": false,
+			"link": false,
+			"type": "SNAP",
+			"info": "",
+			"tag": "#9",
+			"midi_tx": "",
+			"file": "UTILS/Speech to MON ON.snap"
+		}
+	}
+}
