@@ -33811,9 +33811,9 @@
 						"btn": "T3"
 					},
 					"bd": {
-						"mode": "DAWBTN",
-						"name": "|UNDO",
-						"btn": "SY6"
+						"mode": "SCENES",
+						"name": "TALK SHWREGIE |ON",
+						"tag": 10
 					}
 				}
 			},
