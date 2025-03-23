@@ -1,0 +1,140 @@
+{
+    "type": "chpreset.8",
+    "creator_fw": "2.0-0-g6617206f:release",
+    "creator_sn": "S220800180BV2",
+    "creator_model": "ngc-full",
+    "creator_version": "SX45-XU2",
+    "creator_name": "WING-TOOLS",
+    "created": "2025-03-22 00:25:54",
+    "source_channel": "2",
+    "info_text": "SUB",
+    "scopes_content": " ++++++++++++++",
+    "scopes_main": "++++",
+    "scopes_send": "++++++++++++++++++++++++",
+    "target_fx": [
+        0,
+        0
+    ],
+    "ch_data": {
+        "in": {
+            "set": {
+                "inv": false,
+                "trim": 0,
+                "bal": 0
+            }
+        },
+        "col": 3,
+        "name": "SUB",
+        "icon": 0,
+        "led": true,
+        "busmono": false,
+        "mute": false,
+        "fdr": 0,
+        "pan": 0,
+        "wid": 100,
+        "mon": "A",
+        "eq": {
+            "on": true,
+            "mdl": "PULSAR",
+            "mix": 100,
+            "eq1": true,
+            "1lb": 7.300000191,
+            "1latt": 7.800000191,
+            "1lf": "30",
+            "1hw": 5,
+            "1hb": 0,
+            "1hf": "10k",
+            "1hatt": 0,
+            "1hattf": "20k",
+            "eq5": false,
+            "5lb": 0,
+            "5lf": "300",
+            "5md": 0,
+            "5mf": "1k",
+            "5hb": 0,
+            "5hf": "3k"
+        },
+        "dyn": {
+            "on": false,
+            "mdl": "EXP",
+            "mix": 100,
+            "gain": 3,
+            "thr": -25,
+            "ratio": 1.5,
+            "knee": 0,
+            "det": "PEAK",
+            "att": 6,
+            "hld": 1,
+            "rel": 12.9923563,
+            "env": "LOG",
+            "auto": false
+        },
+        "dynxo": {
+            "depth": 6,
+            "type": "OFF",
+            "f": 1002.37439
+        },
+        "dynsc": {
+            "type": "OFF",
+            "f": 1002.37439,
+            "q": 1.995881796,
+            "src": "SELF",
+            "tap": "BUS"
+        },
+        "preins": {
+            "on": false,
+            "ins": "NONE"
+        },
+        "send": {
+            "MX1": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX2": {
+                "on": true,
+                "lvl": 0,
+                "pre": false
+            },
+            "MX3": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX4": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX5": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX6": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX7": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX8": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            }
+        },
+        "postins": {
+            "on": false,
+            "ins": "NONE"
+        },
+        "dly": {
+            "on": false,
+            "m": 0.100000001
+        },
+        "tags": ""
+    }
+}
