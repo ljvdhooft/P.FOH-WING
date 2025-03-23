@@ -1,0 +1,210 @@
+{
+    "type": "chpreset.8",
+    "creator_fw": "2.0-0-g6617206f:release",
+    "creator_sn": "S220800180BV2",
+    "creator_model": "ngc-full",
+    "creator_version": "SX45-XU2",
+    "creator_name": "WING-TOOLS",
+    "created": "2025-03-22 00:25:54",
+    "source_channel": "13",
+    "info_text": "VRB HLL",
+    "scopes_content": " ++++++++++++++",
+    "scopes_main": "++++",
+    "scopes_send": "++++++++++++++++++++++++",
+    "target_fx": [
+        0,
+        0
+    ],
+    "ch_data": {
+        "in": {
+            "set": {
+                "inv": false,
+                "trim": 0,
+                "bal": 0
+            }
+        },
+        "col": 11,
+        "name": "VRB HLL",
+        "icon": 0,
+        "led": false,
+        "busmono": false,
+        "mute": false,
+        "fdr": 0.002419949,
+        "pan": 0,
+        "wid": 100,
+        "mon": "A",
+        "busmode": "POST",
+        "eq": {
+            "on": false,
+            "mdl": "STD",
+            "mix": 100,
+            "lg": 0,
+            "lf": 60.13883591,
+            "lq": 1.995881796,
+            "leq": "SHV",
+            "1g": 0,
+            "1f": 129.8763428,
+            "1q": 1.995881796,
+            "2g": 0,
+            "2f": 299.2471619,
+            "2q": 1.995881796,
+            "3g": 0,
+            "3f": 699.4875488,
+            "3q": 1.995881796,
+            "4g": 0,
+            "4f": 1499.78833,
+            "4q": 1.995881796,
+            "5g": 0,
+            "5f": 2992.470947,
+            "5q": 1.995881796,
+            "6g": 0,
+            "6f": 6013.883789,
+            "6q": 1.995881796,
+            "hg": 0,
+            "hf": 11999.27539,
+            "hq": 0.997970223,
+            "heq": "SHV",
+            "tilt": 0
+        },
+        "dyn": {
+            "on": false,
+            "mdl": "COMP",
+            "mix": 100,
+            "gain": 0,
+            "thr": -10,
+            "ratio": 3,
+            "knee": 3,
+            "det": "RMS",
+            "att": 50,
+            "hld": 20,
+            "rel": 152.5651855,
+            "env": "LOG",
+            "auto": true
+        },
+        "dynxo": {
+            "depth": 6,
+            "type": "OFF",
+            "f": 1002.37439
+        },
+        "dynsc": {
+            "type": "OFF",
+            "f": 1002.37439,
+            "q": 1.995881796,
+            "src": "SELF",
+            "tap": "BUS"
+        },
+        "preins": {
+            "on": false,
+            "ins": "NONE"
+        },
+        "main": {
+            "1": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "2": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "3": {
+                "on": false,
+                "lvl": 0,
+                "pre": false
+            },
+            "4": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            }
+        },
+        "send": {
+            "1": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "2": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "3": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "4": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "5": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "6": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "7": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "8": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX1": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX2": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX3": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX4": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX5": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX6": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX7": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            },
+            "MX8": {
+                "on": false,
+                "lvl": -144,
+                "pre": false
+            }
+        },
+        "postins": {
+            "on": false,
+            "ins": "NONE"
+        },
+        "tags": "#D7"
+    }
+}

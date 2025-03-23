@@ -1,0 +1,125 @@
+{
+    "type": "chpreset.8",
+    "creator_fw": "2.0-0-g6617206f:release",
+    "creator_sn": "S220800180BV2",
+    "creator_model": "ngc-full",
+    "creator_version": "SX45-XU2",
+    "creator_name": "WING-TOOLS",
+    "created": "2025-03-22 00:25:54",
+    "source_channel": "1",
+    "info_text": "PA LR",
+    "scopes_content": " ++++++++++++++",
+    "scopes_main": "++++",
+    "scopes_send": "++++++++++++++++++++++++",
+    "target_fx": [
+        0,
+        0
+    ],
+    "ch_data": {
+        "in": {
+            "set": {
+                "inv": false,
+                "trim": 0,
+                "bal": 0
+            }
+        },
+        "dir": {
+            "1": {
+                "on": false,
+                "lvl": -144,
+                "inv": false,
+                "in": "OFF",
+                "tap": "PRE"
+            },
+            "2": {
+                "on": false,
+                "lvl": -144,
+                "inv": false,
+                "in": "OFF",
+                "tap": "PRE"
+            }
+        },
+        "col": 9,
+        "name": "PA LR",
+        "icon": 0,
+        "led": true,
+        "busmono": false,
+        "mute": false,
+        "fdr": -9.960929871,
+        "pan": 0,
+        "wid": 100,
+        "mon": "A",
+        "eq": {
+            "on": true,
+            "mdl": "STD",
+            "mix": 100,
+            "lg": 0,
+            "lf": 76.25704956,
+            "lq": 0.997970223,
+            "leq": "BW24",
+            "1g": 0,
+            "1f": 122.6111526,
+            "1q": 3.660369873,
+            "2g": -2.099999905,
+            "2f": 200,
+            "2q": 1.29419291,
+            "3g": -3.499999762,
+            "3f": 704.5388794,
+            "3q": 0.997970223,
+            "4g": 1.000000238,
+            "4f": 3124.496826,
+            "4q": 1.737526298,
+            "5g": -2.499999762,
+            "5f": 5133.398926,
+            "5q": 1.512613416,
+            "6g": 0,
+            "6f": 6013.883789,
+            "6q": 0.997970223,
+            "hg": 0,
+            "hf": 11999.27539,
+            "hq": 0.997970223,
+            "heq": "SHV",
+            "tilt": 0
+        },
+        "dyn": {
+            "on": false,
+            "mdl": "COMP",
+            "mix": 100,
+            "gain": 0,
+            "thr": -10,
+            "ratio": 3,
+            "knee": 3,
+            "det": "RMS",
+            "att": 50,
+            "hld": 20,
+            "rel": 152.5651855,
+            "env": "LOG",
+            "auto": true
+        },
+        "dynxo": {
+            "depth": 6,
+            "type": "OFF",
+            "f": 1002.37439
+        },
+        "dynsc": {
+            "type": "OFF",
+            "f": 1002.37439,
+            "q": 1.995881796,
+            "src": "SELF",
+            "tap": "BUS"
+        },
+        "preins": {
+            "on": false,
+            "ins": "NONE"
+        },
+        "postins": {
+            "on": false,
+            "ins": "NONE"
+        },
+        "dly": {
+            "on": true,
+            "m": 1
+        },
+        "tags": ""
+    }
+}
