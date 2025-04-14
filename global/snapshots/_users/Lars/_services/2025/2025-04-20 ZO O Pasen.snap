@@ -34895,9 +34895,9 @@
 			"daw1": {
 				"1": {
 					"bu": {
-						"mode": "DAWBTN",
-						"name": "STOP",
-						"btn": "T1"
+						"mode": "SOF",
+						"name": "|MON aGit",
+						"ch": 57
 					},
 					"bd": {
 						"mode": "DAWBTN",
