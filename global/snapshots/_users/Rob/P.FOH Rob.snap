@@ -5,9 +5,9 @@
 	"creator_model": "ngc-full",
 	"creator_version": "SX45-XU2",
 	"creator_name": "PAROUSIA-FOH",
-	"created": "2023-11-19 11:41:52",
+	"created": "2025-06-05 11:35:27",
 	"active_show": "",
-	"active_scene": "I:/library/GLOBAL/snapshots/P.FOH 2023.10.snap",
+	"active_scene": "I:/library/GLOBAL/snapshots/P.FOH 2024.12.snap",
 	"ae_data": {
 		"cfg": {
 			"mainlink": "2",
@@ -9630,7 +9630,7 @@
 					},
 					"conn": {
 						"grp": "A",
-						"in": 39,
+						"in": 13,
 						"altgrp": "CRD",
 						"altin": 39
 					}
