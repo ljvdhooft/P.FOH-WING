@@ -1,0 +1,44 @@
+{
+	"type": "snapshot.9",
+	"creator_fw": "VERSION_FULL",
+	"creator_sn": "NO_SERIAL",
+	"creator_model": "WING-EDIT",
+	"creator_version": "3.1",
+	"creator_name": "",
+	"created": "2000-167-01 230:71:00",
+	"ae_data": {
+		"cfg": {
+			"talk": {
+				"assign": "AUX8"
+			}
+		},
+		"aux": {
+			"8": {
+				"send": {
+					"MX5": {
+						"on": false,
+						"lvl": -144,
+						"pon": false,
+						"ind": false,
+						"mode": "POST",
+						"plink": false,
+						"pan": 0
+					}
+				}
+			}
+		}
+	},
+	"ce_data": {
+		"user": {
+			"daw1": {
+				"4": {
+					"bd": {
+						"mode": "SCENES",
+						"name": "TALK SHWREGIE",
+						"tag": 10
+					}
+				}
+			}
+		}
+	}
+}
