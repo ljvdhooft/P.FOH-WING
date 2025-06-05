@@ -5,9 +5,9 @@
 	"creator_model": "ngc-full",
 	"creator_version": "SX45-XU2",
 	"creator_name": "PAROUSIA-FOH",
-	"created": "2023-11-19 11:41:52",
+	"created": "2025-06-05 11:35:27",
 	"active_show": "",
-	"active_scene": "I:/library/GLOBAL/snapshots/P.FOH 2023.10.snap",
+	"active_scene": "I:/library/GLOBAL/snapshots/P.FOH 2024.12.snap",
 	"ae_data": {
 		"cfg": {
 			"mainlink": "2",
@@ -9632,7 +9632,7 @@
 					},
 					"conn": {
 						"grp": "A",
-						"in": 39,
+						"in": 13,
 						"altgrp": "CRD",
 						"altin": 39
 					}
@@ -24332,7 +24332,7 @@
 					},
 					"MX3": {
 						"on": true,
-						"lvl": -2.384185791e-6,
+						"lvl": -2.384185791e-06,
 						"pre": false
 					},
 					"MX4": {
@@ -25898,8 +25898,8 @@
 				"thr_4": -2.399999857,
 				"thr_5": -5.5,
 				"gain_1": 4.5,
-				"gain_2": 1.490116119e-7,
-				"gain_3": 1.490116119e-7,
+				"gain_2": 1.490116119e-07,
+				"gain_3": 1.490116119e-07,
 				"gain_4": 1.600000143,
 				"gain_5": 2.800000191,
 				"byp_1": false,
