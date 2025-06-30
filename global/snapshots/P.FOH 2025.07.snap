@@ -5,9 +5,9 @@
 	"creator_model": "wing",
 	"creator_version": "SX45-XU2",
 	"creator_name": "PAROUSIA-FOH",
-	"created": "2025-06-05 11:35:27",
+	"created": "2025-06-30 17:26:57",
 	"active_show": "",
-	"active_scene": "I:/library/GLOBAL/snapshots/P.FOH 2024.12.snap",
+	"active_scene": "I:/library/GLOBAL/snapshots/P.FOH 2025.06.snap",
 	"ae_data": {
 		"cfg": {
 			"mainlink": "2",
@@ -5277,15 +5277,15 @@
 					},
 					"20": {
 						"grp": "MTX",
-						"in": 4
+						"in": 5
 					},
 					"21": {
 						"grp": "MTX",
-						"in": 5
+						"in": 7
 					},
 					"22": {
-						"grp": "MTX",
-						"in": 6
+						"grp": "OFF",
+						"in": 1
 					},
 					"23": {
 						"grp": "OFF",
@@ -26859,7 +26859,7 @@
 				"led": true,
 				"busmono": false,
 				"mute": false,
-				"fdr": 0,
+				"fdr": 0.46875,
 				"pan": 0,
 				"wid": 100,
 				"mon": "A",
@@ -26938,13 +26938,13 @@
 						"pre": false
 					},
 					"MX3": {
-						"on": true,
-						"lvl": -1.907348633e-6,
+						"on": false,
+						"lvl": -144,
 						"pre": false
 					},
 					"MX4": {
-						"on": false,
-						"lvl": -144,
+						"on": true,
+						"lvl": 0.018384933,
 						"pre": false
 					},
 					"MX5": {
@@ -26998,7 +26998,7 @@
 				"wid": 100,
 				"mon": "A",
 				"eq": {
-					"on": true,
+					"on": false,
 					"mdl": "PULSAR",
 					"mix": 100,
 					"eq1": true,
@@ -27061,8 +27061,8 @@
 						"pre": false
 					},
 					"MX3": {
-						"on": false,
-						"lvl": -144,
+						"on": true,
+						"lvl": 0.015510559,
 						"pre": false
 					},
 					"MX4": {
@@ -27382,7 +27382,7 @@
 					"mdl": "STD",
 					"mix": 100,
 					"lg": 0,
-					"lf": 76.25704956,
+					"lf": 75.16748047,
 					"lq": 0.997970223,
 					"leq": "BW24",
 					"1g": 0,
@@ -27446,15 +27446,15 @@
 				},
 				"dly": {
 					"on": true,
-					"mode": "M",
-					"dly": 1
+					"mode": "SMP",
+					"dly": 130
 				},
 				"tags": ""
 			},
 			"2": {
 				"in": {
 					"set": {
-						"inv": false,
+						"inv": true,
 						"trim": 0,
 						"bal": 0
 					}
@@ -27466,14 +27466,14 @@
 					"in": "OFF"
 				},
 				"col": 9,
-				"name": "SUB LR",
+				"name": "SUB REAR",
 				"icon": 0,
 				"led": true,
-				"busmono": false,
+				"busmono": true,
 				"mute": false,
-				"fdr": -12.38280869,
+				"fdr": -3.037109375,
 				"pan": 0,
-				"wid": 100,
+				"wid": 0,
 				"mon": "A",
 				"eq": {
 					"on": true,
@@ -27483,9 +27483,9 @@
 					"lf": 60.13883591,
 					"lq": 1.995881796,
 					"leq": "SHV",
-					"1g": 0,
-					"1f": 130.8142242,
-					"1q": 1.995881796,
+					"1g": -9,
+					"1f": 71.99129486,
+					"1q": 10,
 					"2g": 0,
 					"2f": 299.2471619,
 					"2q": 1.995881796,
@@ -27502,7 +27502,105 @@
 					"6f": 6013.883789,
 					"6q": 1.995881796,
 					"hg": 0,
-					"hf": 76.25704956,
+					"hf": 75.16748047,
+					"hq": 0.997970223,
+					"heq": "BW24",
+					"tilt": 0
+				},
+				"dyn": {
+					"on": false,
+					"mdl": "COMP",
+					"mix": 100,
+					"gain": 0,
+					"thr": -10,
+					"ratio": 3,
+					"knee": 3,
+					"det": "RMS",
+					"att": 50,
+					"hld": 20,
+					"rel": 152.5651855,
+					"env": "LOG",
+					"auto": true
+				},
+				"dynxo": {
+					"depth": 6,
+					"type": "OFF",
+					"f": 1002.37439
+				},
+				"dynsc": {
+					"type": "OFF",
+					"f": 1002.37439,
+					"q": 1.995881796,
+					"src": "SELF",
+					"tap": "BUS"
+				},
+				"preins": {
+					"on": false,
+					"ins": "NONE"
+				},
+				"postins": {
+					"on": false,
+					"ins": "NONE"
+				},
+				"dly": {
+					"on": true,
+					"mode": "SMP",
+					"dly": 235
+				},
+				"tags": ""
+			},
+			"3": {
+				"in": {
+					"set": {
+						"inv": false,
+						"trim": 0,
+						"bal": 0
+					}
+				},
+				"dir": {
+					"on": false,
+					"lvl": -144,
+					"inv": false,
+					"in": "OFF"
+				},
+				"col": 9,
+				"name": "SUB FRONT",
+				"icon": 0,
+				"led": true,
+				"busmono": true,
+				"mute": false,
+				"fdr": -2.705078125,
+				"pan": 0,
+				"wid": 0,
+				"mon": "A",
+				"eq": {
+					"on": true,
+					"mdl": "STD",
+					"mix": 100,
+					"lg": 0,
+					"lf": 60.13883591,
+					"lq": 1.995881796,
+					"leq": "SHV",
+					"1g": -9,
+					"1f": 71.99129486,
+					"1q": 10,
+					"2g": 0,
+					"2f": 299.2471619,
+					"2q": 1.995881796,
+					"3g": 0,
+					"3f": 699.4875488,
+					"3q": 1.995881796,
+					"4g": 0,
+					"4f": 1499.78833,
+					"4q": 1.995881796,
+					"5g": 0,
+					"5f": 2992.470947,
+					"5q": 1.995881796,
+					"6g": 0,
+					"6f": 6013.883789,
+					"6q": 1.995881796,
+					"hg": 0,
+					"hf": 75.16748047,
 					"hq": 0.997970223,
 					"heq": "BW24",
 					"tilt": 0
@@ -27549,7 +27647,7 @@
 				},
 				"tags": ""
 			},
-			"3": {
+			"4": {
 				"in": {
 					"set": {
 						"inv": false,
@@ -27578,7 +27676,7 @@
 					"mdl": "STD",
 					"mix": 100,
 					"lg": 0,
-					"lf": 76.25704956,
+					"lf": 75.16748047,
 					"lq": 0.997970223,
 					"leq": "BW24",
 					"1g": 0,
@@ -27642,106 +27740,8 @@
 				},
 				"dly": {
 					"on": true,
-					"mode": "M",
-					"dly": 1
-				},
-				"tags": ""
-			},
-			"4": {
-				"in": {
-					"set": {
-						"inv": false,
-						"trim": 0,
-						"bal": 0
-					}
-				},
-				"dir": {
-					"on": false,
-					"lvl": -144,
-					"inv": false,
-					"in": "OFF"
-				},
-				"col": 1,
-				"name": "",
-				"icon": 0,
-				"led": false,
-				"busmono": false,
-				"mute": false,
-				"fdr": -144,
-				"pan": 0,
-				"wid": 100,
-				"mon": "A",
-				"eq": {
-					"on": false,
-					"mdl": "STD",
-					"mix": 100,
-					"lg": 0,
-					"lf": 60.13883591,
-					"lq": 1.995881796,
-					"leq": "SHV",
-					"1g": 0,
-					"1f": 129.8763428,
-					"1q": 1.995881796,
-					"2g": 0,
-					"2f": 299.2471619,
-					"2q": 1.995881796,
-					"3g": 0,
-					"3f": 699.4875488,
-					"3q": 1.995881796,
-					"4g": 0,
-					"4f": 1499.78833,
-					"4q": 1.995881796,
-					"5g": 0,
-					"5f": 2992.470947,
-					"5q": 1.995881796,
-					"6g": 0,
-					"6f": 6013.883789,
-					"6q": 1.995881796,
-					"hg": 0,
-					"hf": 11999.27539,
-					"hq": 0.997970223,
-					"heq": "SHV",
-					"tilt": 0
-				},
-				"dyn": {
-					"on": false,
-					"mdl": "COMP",
-					"mix": 100,
-					"gain": 0,
-					"thr": -10,
-					"ratio": 3,
-					"knee": 3,
-					"det": "RMS",
-					"att": 50,
-					"hld": 20,
-					"rel": 152.5651855,
-					"env": "LOG",
-					"auto": true
-				},
-				"dynxo": {
-					"depth": 6,
-					"type": "OFF",
-					"f": 1002.37439
-				},
-				"dynsc": {
-					"type": "OFF",
-					"f": 1002.37439,
-					"q": 1.995881796,
-					"src": "SELF",
-					"tap": "BUS"
-				},
-				"preins": {
-					"on": false,
-					"ins": "NONE"
-				},
-				"postins": {
-					"on": false,
-					"ins": "NONE"
-				},
-				"dly": {
-					"on": false,
-					"mode": "M",
-					"dly": 0.100000001
+					"mode": "SMP",
+					"dly": 245
 				},
 				"tags": ""
 			},
@@ -29477,7 +29477,7 @@
 				}
 			},
 			"C": {
-				"sel": 1,
+				"sel": 2,
 				"spidx": 0,
 				"1": {
 					"ofs": 0,
@@ -35500,4 +35500,3 @@
 		"filesort": "NAME"
 	}
 }
-
