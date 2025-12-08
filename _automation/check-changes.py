@@ -1,10 +1,8 @@
-# Python program to read
-# json file
-
 import json
 from deepdiff import DeepDiff
 from mergedeep import merge
 import os
+from pathlib import Path
 
 with open("new.snap", "r") as j:
     snap = json.load(j)
@@ -45,18 +43,19 @@ if changes != False:
                 i += 1
         merge(result, new_dict)
 
-    print(result)
+    print(json.dumps(result, indent=1))
 
     path = 'global/snapshots/_users'
     subfolders = [f.path for f in os.scandir(path) if f.is_dir()]
     for subfolder in subfolders:
-        print("File updated in " + subfolder)
-        snapname = subfolder + '/P.FOH ' + subfolder[24:] + '.snap'
-        with open(snapname, "r") as j:
-            target = json.load(j)
-        out = merge(target, result)
-        with open(snapname, "w") as jsonFile:
-            json.dump(out, jsonFile, indent='\t')
+        for path in Path(subfolder).glob(f"P.FOH*.snap"):
+            snapname = path
+            print(f"Updated file {snapname}")
+            with open(snapname, "r") as j:
+                target = json.load(j)
+            out = merge(target, result)
+            with open(snapname, "w") as jsonFile:
+                jsonFile.write(json.dumps(out, indent='\t'))
 
 os.remove("new.snap")
 os.remove("previous.snap")
