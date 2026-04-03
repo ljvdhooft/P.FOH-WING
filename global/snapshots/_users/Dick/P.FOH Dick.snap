@@ -27446,8 +27446,8 @@
 				},
 				"dly": {
 					"on": true,
-					"mode": "SMP",
-					"dly": 130
+					"mode": "M",
+					"dly": 1
 				},
 				"tags": ""
 			},
@@ -27544,8 +27544,8 @@
 				},
 				"dly": {
 					"on": true,
-					"mode": "SMP",
-					"dly": 235
+					"mode": "M",
+					"dly": 0.100000001
 				},
 				"tags": ""
 			},
@@ -27643,7 +27643,7 @@
 				"dly": {
 					"on": false,
 					"mode": "M",
-					"dly": 0.100000001
+					"dly": 1
 				},
 				"tags": ""
 			},
@@ -27667,7 +27667,7 @@
 				"led": true,
 				"busmono": true,
 				"mute": false,
-				"fdr": -11.26953125,
+				"fdr": -16.39790344,
 				"pan": 0,
 				"wid": 0,
 				"mon": "A",
@@ -27740,8 +27740,8 @@
 				},
 				"dly": {
 					"on": true,
-					"mode": "SMP",
-					"dly": 245
+					"mode": "M",
+					"dly": 0.100000001
 				},
 				"tags": ""
 			},
@@ -35499,5 +35499,5 @@
 		"datefmt": "YMD",
 		"filesort": "NAME"
 	},
-	"updated": "2025-01-02 19:44:01"
+	"updated": "2026-04-03 22:48:20"
 }

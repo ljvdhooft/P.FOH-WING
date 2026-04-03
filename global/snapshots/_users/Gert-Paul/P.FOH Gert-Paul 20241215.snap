@@ -27667,7 +27667,7 @@
 				"led": false,
 				"busmono": false,
 				"mute": false,
-				"fdr": -144,
+				"fdr": -16.39790344,
 				"pan": 0,
 				"wid": 100,
 				"mon": "A",
@@ -35498,5 +35498,6 @@
 		"timefmt": "24H",
 		"datefmt": "YMD",
 		"filesort": "NAME"
-	}
+	},
+	"updated": "2026-04-03 22:48:20"
 }
